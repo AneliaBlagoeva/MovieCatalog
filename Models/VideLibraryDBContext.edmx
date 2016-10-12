@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="videolibraryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="actors">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="first" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="last" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="countryActor" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="actorPhone" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="socialNetworkLink" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="nativeLanguage" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="age" Type="int" Nullable="false" />
+          <Property Name="id" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="videolibraryID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="studios">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="studioName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="director" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="address" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="phone" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="id" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="videolibraryID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="videolibrary">
+          <Key>
+            <PropertyRef Name="videolibraryId" />
+          </Key>
+          <Property Name="nameSite" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="siteLink" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="videolibraryId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="videos">
+          <Key>
+            <PropertyRef Name="filmName" />
+          </Key>
+          <Property Name="filmName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="duration" Type="int" Nullable="false" />
+          <Property Name="country" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="year" Type="int" Nullable="false" />
+          <Property Name="plot" Type="nvarchar" MaxLength="4000" Nullable="false" />
+          <Property Name="audioLanguage" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="rating" Type="int" Nullable="false" />
+          <Property Name="actor-ref" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="isHd" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="hasSubtitle" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="gendre" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="produced-by" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="type" Type="nvarchar" MaxLength="6" Nullable="false" />
+          <Property Name="videolibraryID" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_actors_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="actors" Type="Self.actors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="actors">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_studios_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="studios" Type="Self.studios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="studios">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_videos_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="videos" Type="Self.videos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="videos">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="videolibraryModelStoreContainer">
+          <EntitySet Name="actors" EntityType="Self.actors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="studios" EntityType="Self.studios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="videolibrary" EntityType="Self.videolibrary" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="videos" EntityType="Self.videos" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_actors_videolibrary" Association="Self.FK_actors_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibrary" />
+            <End Role="actors" EntitySet="actors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_studios_videolibrary" Association="Self.FK_studios_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibrary" />
+            <End Role="studios" EntitySet="studios" />
+          </AssociationSet>
+          <AssociationSet Name="FK_videos_videolibrary" Association="Self.FK_videos_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibrary" />
+            <End Role="videos" EntitySet="videos" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="videolibraryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="actor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="first" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="last" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="countryActor" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="actorPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="socialNetworkLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nativeLanguage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="age" Type="Int32" Nullable="false" />
+          <Property Name="id" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="videolibraryID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="videolibrary" Relationship="Self.FK_actors_videolibrary" FromRole="actors" ToRole="videolibrary" />
+        </EntityType>
+        <EntityType Name="studio">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="studioName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="director" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="videolibraryID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="videolibrary" Relationship="Self.FK_studios_videolibrary" FromRole="studios" ToRole="videolibrary" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="videolibrary">
+          <Key>
+            <PropertyRef Name="videolibraryId" />
+          </Key>
+          <Property Name="nameSite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="siteLink" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="videolibraryId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="actors" Relationship="Self.FK_actors_videolibrary" FromRole="videolibrary" ToRole="actors" />
+          <NavigationProperty Name="studios" Relationship="Self.FK_studios_videolibrary" FromRole="videolibrary" ToRole="studios" />
+          <NavigationProperty Name="videos" Relationship="Self.FK_videos_videolibrary" FromRole="videolibrary" ToRole="videos" />
+        </EntityType>
+        <EntityType Name="video">
+          <Key>
+            <PropertyRef Name="filmName" />
+          </Key>
+          <Property Name="filmName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="duration" Type="Int32" Nullable="false" />
+          <Property Name="country" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="year" Type="Int32" Nullable="false" />
+          <Property Name="plot" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="audioLanguage" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="rating" Type="Int32" Nullable="false" />
+          <Property Name="actor_ref" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="isHd" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="hasSubtitle" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="gendre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="produced_by" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="type" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="videolibraryID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="videolibrary" Relationship="Self.FK_videos_videolibrary" FromRole="videos" ToRole="videolibrary" />
+        </EntityType>
+        <Association Name="FK_actors_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="actors" Type="Self.actor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="actors">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_studios_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="studios" Type="Self.studio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="studios">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_videos_videolibrary">
+          <End Role="videolibrary" Type="Self.videolibrary" Multiplicity="1" />
+          <End Role="videos" Type="Self.video" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="videolibrary">
+              <PropertyRef Name="videolibraryId" />
+            </Principal>
+            <Dependent Role="videos">
+              <PropertyRef Name="videolibraryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="videolibraryEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="actors" EntityType="Self.actor" />
+          <EntitySet Name="studios" EntityType="Self.studio" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="videolibraries" EntityType="Self.videolibrary" />
+          <EntitySet Name="videos" EntityType="Self.video" />
+          <AssociationSet Name="FK_actors_videolibrary" Association="Self.FK_actors_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibraries" />
+            <End Role="actors" EntitySet="actors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_studios_videolibrary" Association="Self.FK_studios_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibraries" />
+            <End Role="studios" EntitySet="studios" />
+          </AssociationSet>
+          <AssociationSet Name="FK_videos_videolibrary" Association="Self.FK_videos_videolibrary">
+            <End Role="videolibrary" EntitySet="videolibraries" />
+            <End Role="videos" EntitySet="videos" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="videolibraryModelStoreContainer" CdmEntityContainer="videolibraryEntities1">
+          <EntitySetMapping Name="actors">
+            <EntityTypeMapping TypeName="videolibraryModel.actor">
+              <MappingFragment StoreEntitySet="actors">
+                <ScalarProperty Name="first" ColumnName="first" />
+                <ScalarProperty Name="last" ColumnName="last" />
+                <ScalarProperty Name="countryActor" ColumnName="countryActor" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="actorPhone" ColumnName="actorPhone" />
+                <ScalarProperty Name="socialNetworkLink" ColumnName="socialNetworkLink" />
+                <ScalarProperty Name="nativeLanguage" ColumnName="nativeLanguage" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="age" ColumnName="age" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="videolibraryID" ColumnName="videolibraryID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="studios">
+            <EntityTypeMapping TypeName="videolibraryModel.studio">
+              <MappingFragment StoreEntitySet="studios">
+                <ScalarProperty Name="studioName" ColumnName="studioName" />
+                <ScalarProperty Name="director" ColumnName="director" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="videolibraryID" ColumnName="videolibraryID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="videolibraryModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="videolibraries">
+            <EntityTypeMapping TypeName="videolibraryModel.videolibrary">
+              <MappingFragment StoreEntitySet="videolibrary">
+                <ScalarProperty Name="nameSite" ColumnName="nameSite" />
+                <ScalarProperty Name="siteLink" ColumnName="siteLink" />
+                <ScalarProperty Name="videolibraryId" ColumnName="videolibraryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="videos">
+            <EntityTypeMapping TypeName="videolibraryModel.video">
+              <MappingFragment StoreEntitySet="videos">
+                <ScalarProperty Name="filmName" ColumnName="filmName" />
+                <ScalarProperty Name="duration" ColumnName="duration" />
+                <ScalarProperty Name="country" ColumnName="country" />
+                <ScalarProperty Name="year" ColumnName="year" />
+                <ScalarProperty Name="plot" ColumnName="plot" />
+                <ScalarProperty Name="audioLanguage" ColumnName="audioLanguage" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="actor_ref" ColumnName="actor-ref" />
+                <ScalarProperty Name="isHd" ColumnName="isHd" />
+                <ScalarProperty Name="hasSubtitle" ColumnName="hasSubtitle" />
+                <ScalarProperty Name="gendre" ColumnName="gendre" />
+                <ScalarProperty Name="produced_by" ColumnName="produced-by" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="videolibraryID" ColumnName="videolibraryID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
