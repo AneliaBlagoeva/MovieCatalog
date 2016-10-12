@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+  <nameSite>Арена София</nameSite>
+  <siteLink>www.arenaSofia.bg</siteLink>
+  <videos>
+    
+    <video isHd="no" hasSubtitle='yes' gendre='drama' produced-by='s17' type='tvShow'>
+      <filmName>Дневниците на вампира</filmName>
+      <duration>45</duration>
+      <country>САЩ</country>
+      <year>2009</year>
+      <plot>
+        Сериалът се заснема в Мистик Фолс в щата Вирджиния, малък град, преследван и заобиколен от
+        свръхестествени същества. Поредицата проследява живота на Елена Гилбърт (Нина Добрев), която се
+        влюбва във вампира Стефан Салваторе (Пол Уесли), а скоро се оказва уловена в любовен триъгълник
+        между Стефан и неговия по-голям брат, Деймън (Иън Сомърхолдър), които едновременно са преследвани
+        и от миналото, което са имали с Катрин Пиърс/Катерина Петрова. Сериалът също така се фокусира върху
+        живота на приятелите на Елена и другите жители на Мистик Фолс. Появява се и нов главен герой, който
+        е един от "първородните" вампири – Клаус
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>7</rating>
+      <actorsIN>
+        <actor-ref actorID='a25'/>
+      </actorsIN>
+    </video>
+
+
+    <video isHd="no" hasSubtitle='no' gendre='drama' produced-by='s42' type='tvShow'>
+      <filmName>Отплата</filmName>
+      <duration>60</duration>
+      <country>България</country>
+      <year>2012</year>
+      <plot>
+        Един мъж е несправедливо обвинен и осъден да лежи в затвора за престъпление, което не е извършил.
+        Той се казва Ангел и събира банда отмъстители. Изглежда щастлив семеен мъж. Има красива съпруга
+        и 5-годишна дъщеря. При катастрофа обаче Ангел ги губи и двете. Заради тази катастрофа той е потрошен
+        и е между живота и смъртта. Изпада в кома за кратко.
+      </plot>
+      <audioLanguage>български език</audioLanguage>
+      <rating>4</rating>
+      <actorsIN>
+        <actor-ref actorID='a29'/>
+      </actorsIN>
+    </video>
+
+
+    <video isHd="no" hasSubtitle='yes' gendre='action' produced-by='s44' type='movie'>
+      <filmName>Бандитки</filmName>
+      <duration>93</duration>
+      <country>Франция</country>
+      <year>2006</year>
+      <plot>
+        Мексико, 1848 г. Сара е богата и образована в Европа, дъщеря на собственика на единствената банка
+        в града. Мария е грубовата селянка. Бащите им са убити в един и същ ден. Съдбата ги среща и те
+        стават приятелки и съдружнички в обирането на банки. Опитният държавен криминалист Куентин е
+        извикан да ги залови, но в името на правдата по-късно той се присъединява към тях...
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>5</rating>
+      <actorsIN>
+        <actor-ref actorID='a33'/>
+      </actorsIN>
+    </video>
+  </videos>
+
+  <studios>
+    <studio id='s17'>
+      <studioName>Bonanza Productionss</studioName>
+      <director>Кевин Уилямсън</director>
+      <address>САЩ</address>
+      <phone>752513</phone>
+    </studio>
+
+    <studio id='s42'>
+      <studioName>Нова телевизия</studioName>
+      <director>Иво Симеонов</director>
+      <address>България</address>
+      <phone>666444</phone>
+    </studio>
+
+    <studio id='s44'>
+      <studioName>20th Century Fox</studioName>
+      <director>Люк Бесон</director>
+      <address>Париж, Франция</address>
+      <phone>632598</phone>
+    </studio>
+  </studios>
+
+  <actors>
+    <actor gender='M' age='33' id='a25'>
+      <name>
+        <first>Пол</first>
+        <last>Уесли</last>
+      </name>
+      <countryActor>САЩ</countryActor>
+      <email>Wesley@gmail.com</email>
+      <actorPhone>984531</actorPhone>
+      <socialNetworkLink>https://twitter.com/paulwesley</socialNetworkLink>
+      <nativeLanguage>
+        английски език
+      </nativeLanguage>
+    </actor>
+
+    <actor gender='M' age='37' id='a29'>
+      <name>
+        <first>Орлин</first>
+        <last>Павлов</last>
+      </name>
+      <countryActor>София,България</countryActor>
+      <email>OrlinPavlov@gmail.com</email>
+      <actorPhone>456213</actorPhone>
+      <socialNetworkLink>https://www.facebook.com/orlinopavlov</socialNetworkLink>
+      <nativeLanguage>български език</nativeLanguage>
+    </actor>
+
+
+    <actor gender='F' age='42' id='a33'>
+      <name>
+        <first>Пенелопе</first>
+        <last>Крус</last>
+      </name>
+      <countryActor>Мадрид, Испания</countryActor>
+      <email>PeneloppeKruz@gmail.com</email>
+      <actorPhone>123695789</actorPhone>
+      <socialNetworkLink>https://twitter.com/penelopecruz1</socialNetworkLink>
+      <nativeLanguage>испански език</nativeLanguage>
+    </actor>
+  </actors>
+</videolibrary>

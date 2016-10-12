@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+      <video isHd="no" hasSubtitle='yes' gendre='drama' produced-by='s23' type='tvShow'>
+            <filmName>Семейство Фостър</filmName>
+            <duration>60</duration>
+            <country>САЩ</country>
+            <year>2013</year>
+            <plot>
+              Семейство Фостър е драма за семейство със смесица от деца – осиновени и биологични,
+              отгледани от две майки. Стеф Фостър е полицай, а партньорката и Лина Адамс е заместник
+              директор в училище. Двете заедно имат едно сплотено семейство, заедно с сина на Стеф
+              от предишен брак и техните осиновени близнаци Мариана и Хесус. Техният живот се променя
+              по неочакван начин, когато Лина среща Кали, тийнейджър с агресивно минало, която е сменила
+              няколко приемни семейства. Лина и Стеф я приемат в дома си като мислят, че ще бъде само за
+              няколко седмици, докато и намерят постоянен дом.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>7</rating>
+            <actorsIN>
+                <actor-ref actorID='a39'/>  
+            </actorsIN>
+       </video>
+      
+    <video isHd='yes' hasSubtitle='yes' gendre='drama' produced-by='s24' type='tvShow'>
+            <filmName>Малки сладки лъжкини</filmName>
+            <duration>45</duration>
+            <country>САЩ</country>
+            <year>2010</year>
+            <plot>
+              Историята разказва за четирите гимназистки – Ария, Хана, Емили и Спенсър.
+              В един прекрасен ден всяко от момичетата започва да получава заплашителни
+              съобщения от някой с инициал „А“. Те започват да си мислят, че това е Алисън – тяхната
+              „пчела майка“, суперпопулярното момиче на което всеки завижда и която знае всяка тяхна тайна.
+              Но тя е изчезнала преди 1 година и скоро намират тялото ѝ, а ако не тя е мистериозния човек с
+              под инициалът „А“, кой е тогава ? Така в привидно спокойния Роузууд, вече нищо не е сигурно,
+              защото всички техни тайни от най – малките и невинни до най – големите и опасни, са заплашени 
+              да излязат наяве. А това е само началото, защото малките сладурани ще си плащат скъпо за всичко.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a41'/> 
+            </actorsIN>
+       </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='drama' produced-by='s48' type='tvShow'>
+        <filmName>Как се запознах с майка ви</filmName>
+        <duration>22</duration>
+        <country>САЩ</country>
+        <year>2005</year>
+        <plot>
+          През 2030 г. Тед Мозби (озвучен от Боб Сагет) събира дъщеря си и сина си да им разкаже историята
+          за това, как се е запознал с майка им.
+          Историята започва през 2005 г., когато Тед (Джош Раднор) е самотен, 27-годишен архитект, живеещ 
+          с двамата си най-добри приятели от университета – Маршъл Ериксен (Джейсън Сийгъл), студент по
+          право и приятелката му, с която се среща повече от 9 години – Лили Олдрин (Алисън Ханигън), 
+          учителка в детска градина.
+          Тяхната любов кара Тед да се замисли за сериозна връзка и да опитва да намери своята половинка,
+          за огромно възмущение на приятеля им Барни Стинсън (Нийл Патрик Харис) – непоправим женкар с 
+          доходна, макар и неизвестна корпоративна професия. Когато Тед започва да търси идеалното момиче,
+          Барни измисля игра, с която да го представя на момичетата: „Здрасти, познаваш ли Тед?“.
+          Така Тед се запознава с амбициозната млада репортерка Робин Шербатски (Коби Смолдърс), в която бързо
+          се влюбва и тя става част от групата приятели.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a42'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s23'>
+      <studioName>Warner Bros. studios</studioName>
+      <director>Брад Бредуик</director>
+      <address>САЩ</address>
+      <phone>4535</phone>
+    </studio>
+  
+   <studio id='s24'>
+      <studioName>ABC Family</studioName>
+      <director>Сара Шепърд</director>
+      <address>САЩ</address>
+      <phone>4735</phone>
+    </studio>
+
+    <studio id='s48'>
+      <studioName> 20th Century Fox</studioName>
+      <director>Картър Бейс</director>
+      <address>САЩ</address>
+      <phone>9745</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='22' id='a39'>
+            <name>
+                <first>Мая</first>
+                <last>Мичъл</last>
+            </name>
+            <countryActor>Лизмор, Австралия</countryActor>
+            <email>mitchell@gmail.com</email>
+            <actorPhone>213698</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm2314596/?ref_=tt_cl_t5</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+      <actor gender='F' age='26' id='a42'>
+        <name>
+          <first>Луси</first>
+          <last>Хейл</last>
+        </name>
+        <countryActor>Тенеси, САЩ</countryActor>
+        <email>Hale@gmail.com</email>
+        <actorPhone>456972</actorPhone>
+        <socialNetworkLink>https://twitter.com/_LucyHale_</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    
+        <actor gender='F' age='20' id='a41'>
+            <name>
+                <first>Саша</first>
+                <last>Питърс</last>
+            </name>
+            <countryActor>Йоханесбург,Южна Африка</countryActor>
+            <email>Peters@gmail.com</email>
+            <actorPhone>129874</actorPhone>
+            <socialNetworkLink>https://twitter.com/SashaaPieterse</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+    
+    </actors>
+</videolibrary>

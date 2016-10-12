@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+      <video isHd="yes" hasSubtitle='yes' gendre='action' produced-by='s29' type='tvShow'>
+        <filmName>От местопрестъплението: Маями</filmName>
+        <duration>42</duration>
+        <country>САЩ</country>
+        <year>2012</year>
+        <plot>
+          „От местопрестъплението: Маями“ (на английски: CSI: Miami) е разклонение на известния
+          американски сериал на CBS - „От местопрестъплението“. Също като първия сериал „От
+          местопрестъплението: Маями“ се върти около група криминалисти. Неговото действие се
+          развива в Маями, Флорида.
+          Екипът разследва заплетени и необичайни убийства, опитвайки се да разкрие кой е убиецът
+          и как е извършено престъплението. За разлика от другите два сродни сериала (съответно
+          „От местопрестъплението“ и „От местопрестъплението: Ню Йорк“) тук се разследва по
+          едно престъпление на епизод.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>6</rating>
+        <actorsIN>
+          <actor-ref actorID='a50'/>
+        </actorsIN>
+      </video>
+        
+      <video isHd='no' hasSubtitle='yes' gendre='drama' produced-by='s30' type='tvShow'>
+            <filmName>Д-р Хаус</filmName>
+            <duration>44</duration>
+            <country>САЩ</country>
+            <year>2004</year>
+            <plot>
+             Хаус често влиза в противоречие със своите колеги лекари, включително и със собствения
+             си екип, тъй като много от хипотезите му за болестите на пациентите са базирани на прозрения,
+             появяващи се от нищото, а понякога и спорни заключения. Пренебрежението му към болничните 
+             правила и процедури често го вкарва в конфликт с шефката му, която е болничен администратор
+             и декан на медицинския факултет, д-р Лиса Къди (Лиса Едълстийн). Единственият истински приятел
+             на Хаус е д-р Джеймс Уилсън (Робърт Шон Ленард), началник на Отделението по онкология. 
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a52'/>
+            </actorsIN>
+       </video>
+        
+      
+      <video isHd='no' hasSubtitle='yes' gendre='drama' produced-by='s52' type='movie'>
+        <filmName>Престиж </filmName>
+        <duration>130</duration>
+        <country>САЩ</country>
+        <year>2006</year>
+        <plot>
+          Престиж“ (на английски: The Prestige) е трилър-мистерия от 2006 г. на режисьора Кристофър Нолан, базиран на
+          едноименния роман на Кристофър Прийст от 1995 г. Историята следва съперничеството между Робърт Анжие – Великия 
+          Дантон (Хю Джакман) и Алфред Бордън – (Крисчън Бейл), конкурентни лондонски илюзионисти от края на 19 век.
+          Погълнати от идеята да създадат най-изкусната илюзия, те се впускат в напрегната надпревара с трагични 
+          последствия. Във филма участват още Майкъл Кейн, Скарлет Йохансон, Ребека Хол, Анди Съркис, Пайпър Перабо 
+          и Дейвид Боуи в ролята на изобретателя Никола Тесла. Епистоларният роман на Прийст е адаптиран от Нолан и
+          брат му, Джонатан Нолан, в типичната за Нолан нелинейна структура на повествованието. Сред изследваните
+          мотиви са двуличност, обсебеност, саможертва и потайност. Филмът излиза на 20 октомври 2006 г., като получава
+          добри отзиви от публиката и критиката, успешно представяне в боксофиса и две номинации за Оскар за Най-добро
+          операторско майсторство и Най-добра художествена режисура.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>6</rating>
+        <actorsIN>
+          <actor-ref actorID='a57'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s29'>
+      <studioName>Alliance Atlantis Communications</studioName>
+      <director>Джери Брукхаймър</director>
+      <address>САЩ</address>
+      <phone>874562</phone>
+    </studio>
+  
+   <studio id='s30'>
+      <studioName>Heel and Toe Films</studioName>
+      <director>Дейвид Шор</director>
+      <address>САЩ</address>
+      <phone>989898</phone>
+    </studio>
+    
+    <studio id='s52'>
+      <studioName>Touchstone Pictures</studioName>
+      <director>Кристофър Нолан</director>
+      <address>Лондон, Великобритания</address>
+        <phone>3212</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='M' age='60' id='a50'>
+            <name>
+                <first>Дейвид</first>
+                <last>Карузо</last>
+            </name>
+            <countryActor>Бедфорд, САЩ</countryActor>
+            <email>Caruso@gmail.com</email>
+            <actorPhone>456231</actorPhone>
+            <socialNetworkLink>https://twitter.com/davidcaruso1?lang=bg</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+     <actor gender='M' age='56' id='a52'>
+            <name>
+                <first>Хю</first>
+                <last>Лори</last>
+            </name>
+            <countryActor>Оксфорд, Великобритания</countryActor>
+            <email>Laurie@gmail.com</email>
+          <actorPhone>239745</actorPhone>
+          <socialNetworkLink>https://twitter.com/hughlaurie?lang=bg</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+    
+       <actor gender='F' age='31' id='a57'>
+        <name>
+          <first>Скарлет</first>
+          <last>Йохансон</last>
+        </name>
+        <countryActor>Ню Йорк, САЩ</countryActor>
+        <email>Johansson@gmail.com</email>
+        <actorPhone>111442</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm0424060/?ref_=tt_cl_t6</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

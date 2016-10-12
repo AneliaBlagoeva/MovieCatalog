@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+  <nameSite>Арена София</nameSite>
+  <siteLink>www.arenaSofia.bg</siteLink>
+  <videos>
+    
+    
+<video isHd="yes" hasSubtitle='yes' gendre='action' produced-by='s13' type='movie'>
+  <filmName>Дивергенти</filmName>
+  <duration>139</duration>
+  <country>САЩ</country>
+  <year>2014</year>
+  <plot>
+    „Дивергенти“ е вълнуващо екшън приключение в един свят, в който хората са разделени на различни
+    фракции въз основа на човешките добродетели. Трис Прайър (Шайлийн Уудли) е предупредена, че е различна
+    (дивергентна) и никога няма да може да стане част от някоя от групите. Когато разкрива, че един от
+    фракционните лидери (Кейт Уинслет) крои заговор за унищожението на всички дивергенти, Трис е принудена да
+    започне да се доверява на тайнствен мъж на име Фор (Тио Джеймс), с когото трябва да стигне до отговора на
+    един жизненоважен въпрос, преди да е станало твърде късно: Какво прави дивергентите толкова опасни?
+  </plot>
+  <audioLanguage>английски език</audioLanguage>
+  <rating>7</rating>
+  <actorsIN>
+    <actor-ref actorID='a17'/>
+  </actorsIN>
+</video>
+
+    
+ <video isHd="no" hasSubtitle='yes' gendre='action' produced-by='s38' type='movie'>
+  <filmName>Лондонски поля</filmName>
+  <duration>139</duration>
+  <country>САЩ</country>
+  <year>2015</year>
+  <plot>
+    Саймън Янг изкарва препитанието си като писател. За огромно негово нещастие, той попада
+    в групата на тези автори, които не могат да напишат нищо смислено от дълго време насам.
+    Изминали са вече три десетилетия, през които Саймън така и не успява да продаде нищо на книжния
+    пазар. Но дали скоро той ще получи шанса да се превърне в един от най - продаваните писатели?
+  </plot>
+  <audioLanguage>английски език</audioLanguage>
+  <rating>3</rating>
+  <actorsIN>
+    <actor-ref actorID='a18'/>
+  </actorsIN>
+</video>
+
+    <video isHd="yes" hasSubtitle='yes' gendre='drama' produced-by='s39' type='movie'>
+      <filmName>Стив Джобс</filmName>
+      <duration>122</duration>
+      <country>САЩ</country>
+      <year>2015</year>
+      <plot>
+        Филмът се концентира върху взаимоотношенията на Стив Джобс (Майкъл Фасбендер) с неговите приятели,
+        близки и колеги. Тези взаимоотношения са представени чрез разговори между тях преди появата на
+        Стив Джобс пред публика с цел представяне на нови технологични продукти. Основният акцент е поставен
+        върху взаимоотношенията баща - дъщеря, като Джобс първоначално отрича да е биологичен баща на дъщеря
+        си, а впоследствие е упрекван от колеги и близки, че не е добър родител. Обръща се внимание и на
+        споровете му със Стив Возняк (Сет Рогън), както и с бившия изпълнителен директор на Apple - Джон
+        Скъли (Джеф Даниелс).
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>7</rating>
+      <actorsIN>
+        <actor-ref actorID='a19'/>
+      </actorsIN>
+    </video>
+</videos>
+
+  <studios>
+  <studio id='s13'>
+    <studioName>Summit Entertainment</studioName>
+    <director>Нийл Бъргър</director>
+    <address>САЩ</address>
+    <phone>953542</phone>
+  </studio>
+
+    <studio id='s38'>
+      <studioName>Muse Productions</studioName>
+      <director>Матю Кълън</director>
+      <address>САЩ</address>
+      <phone>414141</phone>
+    </studio>
+    
+    <studio id='s39'>
+      <studioName>Legendary Pictures</studioName>
+      <director>Дани Бойл</director>
+      <address>Манчестър, Англия</address>
+      <phone>555333</phone>
+    </studio>
+  </studios>
+
+
+  <actors>
+  <actor gender='F' age='24' id='a17'>
+    <name>
+      <first>Шейлийн</first>
+      <last> Удли</last>
+    </name>
+    <countryActor>Калифорния, САЩ</countryActor>
+    <email>Woodley@gmail.com</email>
+    <actorPhone>724531</actorPhone>
+    <socialNetworkLink>https://twitter.com/shailenewoodley?lang=bg</socialNetworkLink>
+    <nativeLanguage>английски език</nativeLanguage>
+  </actor>
+
+
+    <actor gender='M' age='31' id='a18'>
+      <name>
+        <first>Тео</first>
+        <last>Джеймс</last>
+      </name>
+      <countryActor>Оксфорд,Великобритания</countryActor>
+      <email>James@gmail.com</email>
+      <actorPhone>824531</actorPhone>
+      <socialNetworkLink>https://twitter.com/theojamesff</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+
+    <actor gender='F' age='40' id='a19'>
+      <name>
+        <first>Кейт</first>
+        <last>Уинслет</last>
+      </name>
+      <countryActor>Рединг, Великобритания</countryActor>
+      <email>Winslett@gmail.com</email>
+      <actorPhone>784531</actorPhone>
+      <socialNetworkLink>https://twitter.com/KateWinslet</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+  </actors>
+  </videolibrary>

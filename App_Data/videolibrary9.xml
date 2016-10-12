@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='yes' gendre='romantic' produced-by='s16' type='movie'>
+            <filmName>Извинявай, но ще те наричам любов</filmName>
+            <duration>103</duration>
+            <country>Италия</country>
+            <year>2008</year>
+            <plot>Алекс е на 37 и току-що е бил напуснат от своята дългогодишна приятелка Елена.
+                  Проблемите го преследват и в работата му като маркетинг криейтив, когато в 
+                  агенцията се появява неочакван конкурент. Ники (Микела Куатрочоке) е красива,
+                  духовита и интелигентна седемнадесетгодишна гимназистка. Докато отива на училище
+                  един ден, кола блъсва мотоциклета ѝ. Инцидентът не е тежък, но се налага шофьорът
+                  – закъсняващият за работа Алекс – да я закара до училище. Познанство скоро се превръща
+                  в приятелство. А стъпката от приятелството до любовта е много малка. Всичко е чудесно до
+                  деня, в който се връща Елена – в пълната си красота и готова да се омъжи за Алекс. 
+                  Двадесетте години разлика в очите на всички са страшно много. Разумното решение е едно.
+                  Може ли любовта на Ники и Алекс да победи разума и предразсъдъците?
+            </plot>
+            <audioLanguage>италиански език</audioLanguage>
+            <rating>4</rating>
+            <actorsIN>
+                <actor-ref actorID='a23'/>          
+            </actorsIN>
+       </video>
+      
+    
+       <video isHd='no' hasSubtitle='yes' gendre='romantic' produced-by='s16' type='movie'>
+            <filmName>Извинявай, но искам да се оженим</filmName>
+            <duration>103</duration>
+            <country>Италия</country>
+            <year>2010</year>
+            <plot>„Извинявай, но ще те наричам любов“ е продължението на любовната история между тридесет
+            и девет годишният Алекс, успешен маркетинг директор и Ники, която сега е на двадесет, случайна
+            позната от уличен инцидент. Три години след като сме ги оставили на самотния фар, където те са
+            си обещали вечна любов, Алекс разбира, че независимо от разликата във възрастта, Ники е жената,
+            с която иска да сподели живота си. Отново виждаме и техните приятели, всеки с неговата собствена
+            история, със собствените си занимания, всеки в конфликт със собственото си развитие и със 
+            собствени мечти и визия за бъдещето. Алекс прави предложение на Ники за брак, а тя – в началото
+            щастлива – с наближаването на датата започва да изпитва все по-голям страх, че ще направи погрешна
+            стъпка: а сватбата е поставена на карта.
+            </plot>
+            <audioLanguage>италиански език</audioLanguage>
+            <rating>4</rating>
+            <actorsIN>
+                <actor-ref actorID='a24'/>
+            </actorsIN>
+       </video>
+
+
+      <video isHd='yes' hasSubtitle='no' gendre='drama' produced-by='s41' type='tvShow'>
+        <filmName>Извинявай, но искам да се оженим</filmName>
+        <duration>42</duration>
+        <country>САЩ</country>
+        <year>2013</year>
+        <plot>
+          Шоуто е спин-оф на „Дневниците на вампира“, който проследява живота на древните вампири: Клаус
+          (Джоузеф Морган), Илайджа (Даниел Гилийс) и Ребека (Клеър Холт) Майкълсън. В епизода, които се
+          излъчи на 25 април 2013, стана ясно, че Хейли (Фийби Тонкин) е бременна с детето на Клаус. Марсел,
+          протежето на Клаус, е взел властта в Ню Орлиънс и Клаус трябва да се изправи срещу него, за да си
+          върне градът, който е построил. Клаус иска отново да стане крал на града. „Всеки крал се нуждае 
+          от наследник“, казва Клаус, приемайки детето си.
+        </plot>
+        <audioLanguage>български език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a26'/>
+        </actorsIN>
+      </video>
+        
+    </videos>
+
+
+  <studios>
+    <studio id='s16'>
+      <studioName>Medusa Film</studioName>
+      <director>Федерико Моча</director>
+      <address>Рим, Италия</address>
+      <phone>33456915</phone>
+    </studio>
+
+    <studio id='s41'>
+      <studioName>Bonanza Productions</studioName>
+      <director>Джули Плек</director>
+      <address>САЩ</address>
+      <phone>746359</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='28' id='a23'>
+            <name>
+                <first>Микела</first>
+                <last>Куатрочоке</last>
+            </name>
+            <countryActor>Италия</countryActor>
+            <email>Quattrociocche@gmail.com</email>
+            <actorPhone>42453113</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm0100556/?ref_=tt_cl_t1</socialNetworkLink>
+            <nativeLanguage>италиански език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='M' age='45' id='a24'>
+            <name>
+                <first>Раул</first>
+                <last>Бова</last>
+            </name>
+            <countryActor>Италия</countryActor>
+            <email>Bova@gmail.com</email>
+            <actorPhone>22453214</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm2735270/?ref_=tt_cl_t2</socialNetworkLink>
+            <nativeLanguage>италиански език</nativeLanguage>
+        </actor>
+
+         <actor gender='F' age='26' id='a26'>
+         <name>
+              <first>Нина</first>
+              <last>Добрева</last>
+         </name>
+         <countryActor>България</countryActor>
+         <email>Dobrev@gmail.com</email>
+         <actorPhone>184531</actorPhone>
+         <socialNetworkLink>https://twitter.com/ninadobrev</socialNetworkLink>
+         <nativeLanguage>английски език, български език</nativeLanguage>
+      </actor>
+      
+    </actors>
+</videolibrary>

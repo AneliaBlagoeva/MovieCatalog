@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='action' produced-by='s25' type='movie'>
+            <filmName>Зрителна измама</filmName>
+            <duration>124</duration>
+            <country>Франция</country>
+            <year>2013</year>
+            <plot>
+              Сюжетът на Зрителна измама се фокусира върху опитите агентите от Федералното бюро за разследване
+              да арестуват членовете на международната магьосническа трупа Four Horsemen, които за кратък 
+              период от време извършват няколко виртуозни банкови обири в Калифорния. 
+              Това, което затруднява разследването на ФБР е, че илюзионистите успяват да извършат дръзките си
+              обири докато текат представленията им пред нищо неподозираща публика. За да постигне желаните
+              резултати, разследващия екип на ФБР привлича пенсиониран илюзионист, който е наясно с всички
+              тайни на престъпниците от Four Horsemen.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a43'/>  
+            </actorsIN>
+       </video>
+
+
+      <video isHd="no" hasSubtitle='yes' gendre='action' produced-by='s49' type='movie'>
+        <filmName>Белите не могат да скачат</filmName>
+        <duration>115</duration>
+        <country>САЩ</country>
+        <year>1992</year>
+        <plot>
+          Това е една комедия за двама баскетболни маниаци – чернокож и бял. На игрището
+          Били и Сидни разбиват представата, че белите не могат да играят баскетбол толкова
+          добре колкото черните. Всичко е прекрасно, но има няколко малки подробности, които
+          усложняват нещата... Били е задлъжнял с голяма сума пари и е преследван от гангстери,
+          а и двамата със Сидни си имат своите разногласия...
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>3</rating>
+        <actorsIN>
+          <actor-ref actorID='a44'/>
+        </actorsIN>
+      </video>
+
+
+      <video isHd="no" hasSubtitle='yes' gendre='adventure' produced-by='s50' type='movie'>
+        <filmName>Отмъстителите</filmName>
+        <duration>143</duration>
+        <country>САЩ</country>
+        <year>2012</year>
+        <plot>
+          „Отмъстителите“ (на английски: The Avengers) е американски супергеройски филм от 2012 г.,
+          включващ героите на Железния човек, Хълк, Тор, Капитан Америка, Ястребово око и Черната
+          вдовица, и е шести подред филм в Киновселената на Марвел. Филмът си има три продължения
+          - Отмъстителите: Ерата на Ултрон от 2015 г., Отмъстителите: Войни на безкрайността - 
+          1-ва част от 2018 г. и Отмъстителите: Войни на безкрайността - 2-ра част от 2019 г.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>4</rating>
+        <actorsIN>
+          <actor-ref actorID='a45'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s25'>
+      <studioName>Summit Entertainment</studioName>
+      <director>Луи Летерие</director>
+      <address>САЩ</address>
+      <phone>4569</phone>
+    </studio>
+
+    <studio id='s49'>
+      <studioName>20th Century Fox</studioName>
+      <director>Рон Шелтън</director>
+      <address>САЩ</address>
+      <phone>7412</phone>
+    </studio>
+
+    <studio id='s50'>
+      <studioName>Paramount Pictures</studioName>
+      <director>Джос Уидън</director>
+      <address>Ню Йорк, САЩ</address>
+      <phone>7893</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='40' id='a43'>
+            <name>
+                <first>Айла</first>
+                <last>Фишър</last>
+            </name>
+            <countryActor>Маскат, Оман</countryActor>
+            <email>Fisher@gmail.com</email>
+            <actorPhone>636363</actorPhone>
+            <socialNetworkLink>https://twitter.com/IslaKFisher</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+
+      <actor gender='M' age='54' id='a44'>
+        <name>
+          <first>Уди</first>
+          <last>Харелсън</last>
+        </name>
+        <countryActor>Тексас, САЩ</countryActor>
+        <email>harrelson@gmail.com</email>
+        <actorPhone>796541</actorPhone>
+        <socialNetworkLink>https://twitter.com/ImWoodyHarelson</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+
+      <actor gender='M' age='48' id='a45'>
+        <name>
+          <first>Марк</first>
+          <last>Ръфало</last>
+        </name>
+        <countryActor>Уисконсин, САЩ</countryActor>
+        <email>Ruffalo@gmail.com</email>
+        <actorPhone>789865</actorPhone>
+        <socialNetworkLink>https://twitter.com/MarkRuffalo</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

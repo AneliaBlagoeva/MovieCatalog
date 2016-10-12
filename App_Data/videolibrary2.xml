@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='yes' gendre='comedy' produced-by='s4' type='movie'>
+            <filmName>Сам вкъщи 1</filmName>
+            <duration>103</duration>
+            <country>САЩ</country>
+            <year>1990</year>
+            <plot>Кевин Маккалистър (Маколи Кълкин) е забравен сам у дома на Коледа, докато неговите родители
+                отиват на ваканция със самолет. Той не се страхува, когато разбира, че е останал сам, но вечерта
+                е посетен от двама крадци – Хари и Марв (Джо Пеши и Даниъл Стърн). Кевин им прави различни капани,
+                за да им попречи. Родителите му осъзнават едва в самолета, че са оставили Кевин сам и майка му се
+                качва на кола, щедро предложена от пътуващи музиканти, за да се върне обратно (тъй като по това време
+                няма друг полет обратно). Накрая полицията залавя Хари и Марв. Майка му пристига първа, и само минути
+                след това пристигат бащата и другите деца, които са хванали следващия полет.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>9</rating>
+            <actorsIN>
+                <actor-ref actorID='a5'/>
+            </actorsIN>
+        </video>
+
+        <video isHd='yes' hasSubtitle='yes' gendre='action' produced-by='s3' type='movie'>
+            <filmName>Турнирът</filmName>
+            <duration>95</duration>
+            <country>Великобритания</country>
+            <year>2009</year>
+            <plot>На всеки 7 години, в някой произволен град се сформира "Турнирът". Кралска битка между 30 
+                от най-смъртоносните бойци в света. Последният оцелял печели 10 милиона и титлата
+                "Първи в света". Всички битки се заснемат и се излъчват на кодиран канал, където 
+                милиардери залагат богатствата си. Играта започва, но дали фаворитите ще са подготвени за това, което ги очаква...
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>4</rating>
+            <actorsIN>
+                <actor-ref actorID='a6'/>
+            </actorsIN>
+        </video>
+
+
+      <video isHd='yes' hasSubtitle='yes' gendre='adventure' produced-by='s34' type='movie'>
+        <filmName>300</filmName>
+        <duration>116</duration>
+        <country>САЩ</country>
+        <year>2006</year>
+        <plot>
+          Главния герой е цар Леонид, който през 480 г. пр. Хр. води война с персийкия цар Ксеркс. 
+          Взел триста от най-добрите си мъже, той бива запомнен в историята с битката си.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>3</rating>
+        <actorsIN>
+          <actor-ref actorID='a4'/>
+        </actorsIN>
+      </video>
+    </videos>
+    
+    
+    <studios>
+        <studio id='s4'>
+            <studioName>Bonanza Productionss</studioName>
+            <director>Кевин Уилямсън</director>
+            <address>САЩ</address>
+            <phone>752513</phone>
+        </studio>  
+        
+        <studio id='s3'>
+            <studioName>AV Pictures</studioName>
+            <director>Скот Ман</director>
+            <address>Манчестър, Великобритания</address>
+            <phone>654542</phone>
+        </studio>
+
+      <studio id='s34'>
+        <studioName>Warner Bros</studioName>
+        <director>Зак Снайдър</director>
+        <address>Грийн Бей, САЩ</address>
+        <phone>786531</phone>
+      </studio>
+      
+    </studios>
+  
+  <actors>
+    <actor gender='F' age='42' id='a4'>
+      <name>
+        <first>Лина</first>
+        <last>Хийди</last>
+      </name>
+      <countryActor>Бермудски острови</countryActor>
+      <email>Headey@gmail.com</email>
+      <actorPhone>244530</actorPhone>
+      <socialNetworkLink>https://twitter.com/IAMLenaHeadey</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+    
+  <actor gender='M' age='35' id='a5'>
+    <name>
+      <first>Маколи</first>
+      <last>Кълкин</last>
+    </name>
+    <countryActor>САЩ</countryActor>
+    <email>Culkin@gmail.com</email>
+    <actorPhone>224551</actorPhone>
+    <socialNetworkLink>https://twitter.com/macaulaycarsonc</socialNetworkLink>
+    <nativeLanguage>английски език</nativeLanguage>
+  </actor>
+
+  <actor gender='M' age='37' id='a6'>
+            <name>
+                <first>Иън</first>
+                <last>Сомърхолдър</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Somerholder@gmail.com</email>
+    <actorPhone>114531</actorPhone>
+    <socialNetworkLink>https://twitter.com/iansomerhalder</socialNetworkLink>
+    <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+    </actors>
+</videolibrary>
+

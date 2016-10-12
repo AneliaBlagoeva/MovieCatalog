@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='adventure' produced-by='s21' type='movie'>
+            <filmName>Хари Потър</filmName>
+            <duration>86</duration>
+            <country>Великобритания</country>
+            <year>2001</year>
+            <plot>
+              Хари Потър е осиротяло момче, отгледано от леля си и вуйчо си. На 11 години,
+              полу-великана Рубиъс Хагрид го информира, че всъщност е магьосник, а 
+              родителите му са били убити от злия магьосник Лорд Волдемор. Същата нощ Волдемор
+              се е опитал да убие и малкия Хари, но проклятието му се върнало към него и го 
+              превърнало в слаба и безпомощна форма. В резултат на това Хари става изключително
+              известен в магьосническия свят. Хари започва първата си година в училището за магия
+              и вълшебство Хогуортс и се учи за магията.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>10</rating>
+            <actorsIN>
+                <actor-ref actorID='a34'/>   
+            </actorsIN>
+       </video>
+
+
+      <video isHd="yes" hasSubtitle='yes' gendre='adventure' produced-by='s45' type='movie'>
+        <filmName>Ной </filmName>
+        <duration>138</duration>
+        <country>САЩ</country>
+        <year>2014</year>
+        <plot>
+          „Ной“ е американски филм от 2014 г. на режисьора Дарън Аронофски, базиран
+          на историята за Потопа и Ноевия ковчег от „Битие“.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>7</rating>
+        <actorsIN>
+          <actor-ref actorID='a35'/>
+        </actorsIN>
+      </video>
+
+
+      <video isHd="no" hasSubtitle='yes' gendre='action' produced-by='s46' type='movie'>
+        <filmName>Дива мишена </filmName>
+        <duration>98</duration>
+        <country>Великобритания</country>
+        <year>2010</year>
+        <plot>
+          Виктор Мейнарт (Бил Найт) е професионален убиец. Той следва семейния бизнес, като
+          убива мишените си. Фъргюсън (Рупърт Еверет) наема Виктор Мейнарт, за да убие Роуз 
+          (Емили Блънт). Тя трябва да умре, защото е измамамила Фъргюсън, като му е продала
+          една от „най-скъпите картини в света“. Тя познава реставратора в галерията, у когото
+          е истинската картина. Той успява да изкопира картината. По този начин Роуз продава 
+          картината за 900 000 паунда. След като Мейнарт успява да се прицели в мишената, се
+          отказва, защото се влюбва в нея. След това Фъргюсън наема Диксън, за да свърши 
+          работата му.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a36'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s21'>
+      <studioName>Warner Bros. Pictures</studioName>
+      <director>Дейвид Хеймън</director>
+      <address>Великобритания</address>
+      <phone>2456</phone>
+    </studio>
+
+    <studio id='s45'>
+      <studioName>Paramount Pictures</studioName>
+      <director>Дарън Аронофски</director>
+      <address>САЩ</address>
+      <phone>1112</phone>
+    </studio>
+
+    <studio id='s46'>
+      <studioName> Magic Light Pictures</studioName>
+      <director>Джонатан Лин</director>
+      <address>Великобритания</address>
+      <phone>1113</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='26' id='a35'>
+            <name>
+                <first>Ема</first>
+                <last>Уотсън</last>
+            </name>
+            <countryActor>Париж, Франция</countryActor>
+            <email>Watson@gmail.com</email>
+            <actorPhone>124563</actorPhone>
+            <socialNetworkLink>https://twitter.com/emmawatsonvip</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+      <actor gender='M' age='26' id='a34'>
+        <name>
+          <first>Даниъл</first>
+          <last>Радклиф</last>
+        </name>
+        <countryActor>Лондон, Англия</countryActor>
+        <email>Radcliff@gmail.com</email>
+        <actorPhone>635433</actorPhone>
+        <socialNetworkLink>https://twitter.com/DanJRadcliffeNL</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+
+      <actor gender='M' age='27' id='a36'>
+        <name>
+          <first>Рупърт</first>
+          <last>Гринт</last>
+        </name>
+        <countryActor>Хартфордшър, Великобритания</countryActor>
+        <email>Grintt@gmail.com</email>
+        <actorPhone>999632</actorPhone>
+        <socialNetworkLink>https://twitter.com/MoreRupertGrint</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

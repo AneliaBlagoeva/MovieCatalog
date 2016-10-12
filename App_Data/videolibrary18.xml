@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='yes' gendre='comedy' produced-by='s27' type='movie'>
+            <filmName>Романтична комедия</filmName>
+            <duration>109</duration>
+            <country>Турция</country>
+            <year>2010</year>
+            <plot>
+              Първа част на "Романтична комедия" се върти около живота
+              на три приятелки. Езра неистово мечтае за промяна, Дидем е непоправимото парти момиче,
+              а Зейнеп решава да се омъжи, което кара приятелките й да преосмислят живота си. Езра
+              напуска работата и приятеля си и решава да го отбележи с обиколка по клубовете с Дидем.
+              Неочаквано, Езра и Дидем срещат отново мъжете от празничната вечер, което променя живота
+              им изцяло.
+            </plot>
+            <audioLanguage>турски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a47'/>
+            </actorsIN>
+       </video>
+        
+    
+   <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s28' type='tvShow'>
+            <filmName>Кухня</filmName>
+            <duration>25</duration>
+            <country>Русия</country>
+            <year>2012</year>
+            <plot>
+            Максим Лавров (Марк Богатирьов) мечтае да е известен готвач. След като завършва кулинарен
+            институт във Воронеж, постъпва на работа в московския ресторант „Клод Моне“. Заведението
+            има двама шефове – арт-директорът Виктория Сергеевна (Елена Подкаминская) и главният готвач
+            Виктор Баринов (Дмитрий Назаров). Когато двамата се карат, между чука и наковалнята се
+            оказва целият персонал.
+            </plot>
+            <audioLanguage>руски език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a49'/>
+            </actorsIN>
+       </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='drama' produced-by='s56' type='movie'>
+        <filmName>12 години в робство</filmName>
+        <duration>134</duration>
+        <country>САЩ</country>
+        <year>2013</year>
+        <plot>
+          Филмът разказва действителната история на отвлечения свободен тъмнокож Соломон Нортъп, който е продаден в
+          робство. Това само по себе си не прави нито добър, нито особено интересен филма на Стив Маккуин въпреки
+          отличните актьори, поетичната камера на Шон Бобит и музиката на Ханс Цимър (сякаш прекопирана от саундтрака
+          му за „Генезис”). Но „12 години робство” разчита главно на изброеното. Първокласната актьорска игра (която
+          далеч не е най-добрата за годината), арт обвивката и трагичната действителност на робството в годините преди
+          Гражданската война в САЩ са използвани от режисьора и сценариста Джон Ридли. Двамата се надяваха самата
+          тематика и сюжет на филма достатъчно да трогнат американската публика и критика, с което да спечелят няколко
+          златни статуетки. Маккуин не за първи път прави подобен филм. През 2008, той изгрява на фестивала в Кан
+          именно със своята мудна историческа драма за Боби Сандс и гладната стачка в Ирландия през 1981 година.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>10</rating>
+        <actorsIN>
+          <actor-ref actorID='a56'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s27'>
+      <studioName>Boyut Film</studioName>
+      <director>Кетче</director>
+      <address>Турция</address>
+      <phone>1111</phone>
+    </studio>
+  
+  <studio id='s28'>
+      <studioName>YBW-Group</studioName>
+      <director>Виталий Шляпо</director>
+      <address>Русия</address>
+      <phone>4712</phone>
+    </studio>
+
+    <studio id='s56'>
+      <studioName>Fox Searchlight Pictures</studioName>
+      <director>Стийв Маккуин</director>
+      <address>Великобритания</address>
+      <phone>4545</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='28' id='a47'>
+            <name>
+                <first>Синем</first>
+                <last>Кобал</last>
+            </name>
+            <countryActor>Истанбул, Турция</countryActor>
+            <email>Cobal@gmail.com</email>
+            <actorPhone>2424</actorPhone>
+            <socialNetworkLink>https://twitter.com/snmkobalresmi</socialNetworkLink>
+            <nativeLanguage>турски език</nativeLanguage>
+        </actor>
+
+     <actor gender='M' age='49' id='a49'>
+            <name>
+                <first>Дмитрий</first>
+                <last>Нагиев</last>
+            </name>
+            <countryActor>Ленинград, СССР</countryActor>
+            <email>Nagieff@gmail.com</email>
+          <actorPhone>8745</actorPhone>
+          <socialNetworkLink>http://www.imdb.com/name/nm1166576/</socialNetworkLink>
+          <nativeLanguage>руски език</nativeLanguage>
+        </actor>
+
+      <actor gender='M' age='38' id='a56'>
+        <name>
+          <first>Чуетел</first>
+          <last>Еджиофор</last>
+        </name>
+        <countryActor>Лондон, Англия</countryActor>
+        <email>Ejiofor@gmail.com</email>
+        <actorPhone>456731</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm0252230/?ref_=tt_cl_t1</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+      
+    </actors>
+</videolibrary>

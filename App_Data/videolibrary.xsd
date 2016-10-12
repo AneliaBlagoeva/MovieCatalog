@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/videolibrary" elementFormDefault="qualified" targetNamespace="http://tempuri.org/videolibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="videolibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nameSite" />
+        <xs:element ref="siteLink" />
+        <xs:element ref="videos" />
+        <xs:element ref="studios" />
+        <xs:element ref="actors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nameSite" type="xs:string" />
+  <xs:element name="siteLink" type="xs:string" />
+  <xs:element name="videos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="video" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="video">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="filmName" />
+        <xs:element ref="duration" />
+        <xs:element ref="country" />
+        <xs:element ref="year" />
+        <xs:element ref="plot" />
+        <xs:element ref="audioLanguage" />
+        <xs:element ref="rating" />
+        <xs:element ref="actorsIN" />
+      </xs:sequence>
+      <xs:attribute name="isHd" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="yes" />
+            <xs:enumeration value="no" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="hasSubtitle" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="yes" />
+            <xs:enumeration value="no" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="gendre" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="action" />
+            <xs:enumeration value="adventure" />
+            <xs:enumeration value="comedy" />
+            <xs:enumeration value="romantic" />
+            <xs:enumeration value="drama" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="produced-by" type="xs:IDREF" use="required" />
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="movie" />
+            <xs:enumeration value="tvShow" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="filmName" type="xs:string" />
+  <xs:element name="duration" type="xs:string" />
+  <xs:element name="country" type="xs:string" />
+  <xs:element name="year" type="xs:string" />
+  <xs:element name="plot" type="xs:string" />
+  <xs:element name="audioLanguage" type="xs:string" />
+  <xs:element name="rating" type="xs:string" />
+  <xs:element name="actorsIN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="actor-ref" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actor-ref">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="actorID" type="xs:IDREF" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="studios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="studio" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="studio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="studioName" />
+        <xs:element ref="director" />
+        <xs:element ref="address" />
+        <xs:element ref="phone" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="studioName" type="xs:string" />
+  <xs:element name="director" type="xs:string" />
+  <xs:element name="address" type="xs:string" />
+  <xs:element name="phone" type="xs:string" />
+  <xs:element name="actors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="actor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" />
+        <xs:element ref="countryActor" />
+        <xs:element ref="email" />
+        <xs:element ref="actorPhone" />
+        <xs:element ref="socialNetworkLink" />
+        <xs:element ref="nativeLanguage" />
+      </xs:sequence>
+      <xs:attribute name="gender" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="M" />
+            <xs:enumeration value="F" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="age" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="id" type="xs:ID" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="first" />
+        <xs:element ref="last" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="first" type="xs:string" />
+  <xs:element name="last" type="xs:string" />
+  <xs:element name="countryActor" type="xs:string" />
+  <xs:element name="email" type="xs:string" />
+  <xs:element name="actorPhone" type="xs:string" />
+  <xs:element name="socialNetworkLink" type="xs:string" />
+  <xs:element name="nativeLanguage" type="xs:string" />
+</xs:schema>

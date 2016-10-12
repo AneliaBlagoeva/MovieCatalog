@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+  <nameSite>aVID</nameSite>
+  <siteLink>AVID.BG</siteLink>
+  <videos>
+    <video isHd="yes" gendre="action" produced-by="8as" type="movie" hasSubtitle="no">
+      <filmName>jkas</filmName>
+      <duration>89</duration>
+      <year>1990</year>
+      <country>iii</country>
+      <plot>uio</plot>
+      <audioLanguage>lk</audioLanguage>
+      <rating>9</rating>
+      <actorsIN>
+        <actor-ref actorID="lo0" />
+      </actorsIN>
+    </video>
+  </videos>
+  <studios>
+    <studio id="8as">
+      <studioName>dsa</studioName>
+      <director>m</director>
+      <address>m</address>
+      <phone>m</phone>
+    </studio>
+  </studios>
+  <actors>
+    <actor gender="M" age="14" id="lo0">
+      <name>
+        <first>m</first>
+        <last>m</last>
+      </name>
+      <countryActor>dsa</countryActor>
+      <email>das</email>
+      <actorPhone>da</actorPhone>
+      <socialNetworkLink>das</socialNetworkLink>
+      <nativeLanguage>da</nativeLanguage>
+    </actor>
+  </actors>
+</videolibrary>

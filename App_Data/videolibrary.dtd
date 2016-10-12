@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT videolibrary (nameSite,siteLink,videos,studios,actors)>
+<!ELEMENT nameSite (#PCDATA)>
+<!ELEMENT siteLink (#PCDATA)>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (filmName,duration,country,year,plot,audioLanguage,rating,actorsIN)>
+<!ELEMENT filmName (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT plot (#PCDATA) >
+<!ELEMENT audioLanguage (#PCDATA) >
+<!ELEMENT rating (#PCDATA) >
+<!ELEMENT actorsIN (actor-ref)>
+<!ELEMENT actor-ref (#PCDATA)>
+<!ATTLIST actor-ref
+              actorID IDREF #REQUIRED >
+<!ATTLIST video 
+            isHd (yes|no) #REQUIRED
+            hasSubtitle (yes|no) #REQUIRED
+            gendre (action|adventure|comedy|romantic|drama) #REQUIRED
+            produced-by IDREF #REQUIRED
+            type (movie|tvShow) #REQUIRED>
+
+<!ELEMENT studios (studio+)>
+<!ELEMENT studio (studioName,director,address,phone)>
+<!ATTLIST studio
+              id ID #REQUIRED >
+<!ELEMENT studioName (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA) >
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (name,countryActor,email,actorPhone,socialNetworkLink,nativeLanguage)>
+<!ATTLIST actor
+              gender (M|F) #REQUIRED
+              age NMTOKEN #REQUIRED
+              id ID #REQUIRED>
+<!ELEMENT name (first,last)>
+<!ELEMENT first (#PCDATA) >
+<!ELEMENT  last (#PCDATA) >
+<!ELEMENT countryActor (#PCDATA) >
+<!ELEMENT  email (#PCDATA) >
+<!ELEMENT  actorPhone (#PCDATA) >
+<!ELEMENT  socialNetworkLink (#PCDATA) >
+<!ELEMENT  nativeLanguage (#PCDATA) >

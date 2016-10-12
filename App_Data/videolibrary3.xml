@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='comedy' produced-by='s5' type='movie'>
+            <filmName>Отмъщение по женски</filmName>
+            <duration>109</duration>
+            <country>САЩ</country>
+            <year>2014</year>
+            <plot>Диас се превъплъщава в образа на красива и уверена в себе си жена, която по случайност открива,
+                че на пръв поглед перфектния й приятел (в ролята Николай Костър-Уалдау) е всъщност женен и дори
+                се среща тайно с няколко други жени. След като се запознава със съпругата му (Лесли Ман) тя бързо
+                спечелва нейното доверие и не след дълго двете жени изготвят план с който се надяват да отмъстят
+                на мъжа, който ги лъгал толкова много време.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a7'/>
+            </actorsIN>
+        </video>
+        
+        
+        <video isHd='no' hasSubtitle='yes' gendre='romantic' produced-by='s5' type='movie'>
+            <filmName>Тетрадката</filmName>
+            <duration>45</duration>
+            <country>САЩ</country>
+            <year>2011</year>
+            <plot>Като тийнейджъри, между Али (Рейчъл Макадамс) и Ноа (Райън Гослинг) започва започва вихрено ухажване,
+                което скоро преминава в нежна интимност. Младата двойка бързо е раздалена от богатите родитерли на Али,
+                които настояват, че Ноа е подходящ за нея. Минават няколко години и когато се срещат пак, страстта им
+                отново избухва, като принуждава Али да избира между зова на сърцето повелите на класата си.Тази красива 
+                приказка има особено значение за по-стар господин (Джеймс Гарнър), който постоянно чете вечната любовна 
+                история на възрастната жена (Джина Роуландс) до него. Базиран на литературния бестселър на Николас Старк, 
+                „Тетрадката” едновременно ще стопли и разтърси сърцето ви и ще ви заплени със съкрушителната си емоционална
+                сила.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a8'/>
+            </actorsIN>
+        </video>
+        
+        
+        
+        <video isHd='no' hasSubtitle='no' gendre='comedy' produced-by='s6' type='tvShow'>
+            <filmName>Двама мъже и половина</filmName>
+            <duration>45</duration>
+            <country>САЩ</country>
+            <year>2003</year>
+            <plot>„Двама мъже и половина” е базиран върху отношенията между богатия композитор-женкар
+                Чарли и брат му Алън, който след развода с жена си заживява при него. Във всеки от
+                епизодите задължително присъстват жените на чичо Чарли, с които той не се задържа 
+                за повече от вечер, синът на Алън – Джейк, както и ексцентричната майка на двамата
+                братя. Всичко това, забъркано на едно място, създава доста комични и абсурдни ситуации. 
+                В края на осми сезон обаче, при необичайни обстоятелства героят на Чарли Шийн изненадващо
+                се сблъсква със смъртта. 
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>8</rating>
+          <actorsIN>
+                <actor-ref actorID='a9'/>
+            </actorsIN>
+        </video>
+        
+    </videos>
+    
+    
+    <studios>
+        
+        <studio id='s5'>
+            <studioName>Warner Bros. Pictures</studioName>
+            <director>Ник Касаветис</director>
+            <address>Ню Йорк, САЩ</address>
+            <phone>654511</phone>
+        </studio>  
+        
+        <studio id='s6'>
+            <studioName>Warner Bros. Pictures</studioName>
+            <director>Лий Арънсън</director>
+            <address>Калифорния</address>
+            <phone>654500</phone>
+        </studio> 
+    </studios>
+        
+    <actors>
+        <actor gender='F' age='43' id='a7'>
+            <name>
+                <first>Камерън</first>
+                <last>Диас</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Diaz@gmail.com</email>
+          <actorPhone>224534</actorPhone>
+          <socialNetworkLink>https://twitter.com/CameronDiaz</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='F' age='37' id='a8'>
+            <name>
+                <first>Рейчъл</first>
+                <last>Макадамс</last>
+            </name>
+            <countryActor>Канада</countryActor>
+            <email>McAdams@gmail.com</email>
+          <actorPhone>226631</actorPhone>
+          <socialNetworkLink>https://twitter.com/rachelmonline</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        <actor gender='M' age='50' id='a9'>
+            <name>
+                <first>Чарли </first>
+                <last>Шийн</last>
+            </name>
+            <countryActor>Ню Йорк, САЩ</countryActor>
+            <email>Sheen@gmail.com</email>
+          <actorPhone>224531</actorPhone>
+          <socialNetworkLink>https://twitter.com/charliesheen</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+    </actors>
+</videolibrary>

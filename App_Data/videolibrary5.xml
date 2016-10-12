@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='adventure' produced-by='s10' type='movie'>
+            <filmName>Карибски пирати: Проклятието на Черната перла</filmName>
+            <duration>143</duration>
+            <country>САЩ</country>
+            <year>2003</year>
+            <plot>Уил Търнър е млад ковач, влюбен в Елизабет Суон, дъщеря на губернатора. Една нощ градът е 
+                нападнат от пиратския кораб „Черната перла“, чийто екипаж, предвождан от капитана Хектор Барбоса,
+                е прокълнат заради алчността си да са нито живи, нито мъртви. Наглед те са обикновени хора, но не
+                могат да бъдат убити, и не изпитват удоволствията от живота, а лунната светлина разкрива истинската
+                им същност – живи скелети. За да развалят проклятието, им е нужна кръв от някогашния член на екипажа
+                Бил „Каиша“ Търнър, а тъй като той вече не е жив – от някой, в когото тече кръвта му. Елизабет се
+                представя пред тях с името Елизабет Търнър, и те я вземат по погрешка за дъщеря на Бил Търнър, и я отвличат.
+                Уил Търнър решава да я спаси, но не получава подкрепа от другите. Единствената му надежда е хвърленият 
+                в тъмница Джак Спароу. Уил го измъква срещу обещание да окаже помощ в освобождаването на Елизабет.
+                Хитрият и изобретателен Джак обаче има и своя цел – да си върне „Черната перла“, на която е бил капитан,
+                преди Барбоса да организира бунт срещу него
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a11'/>
+            </actorsIN>
+        </video>
+        
+        
+        <video isHd='yes' hasSubtitle='yes' gendre='adventure' produced-by='s11' type='movie'>
+            <filmName>Властелинът на пръстените: Задругата на пръстена</filmName>
+            <duration>178</duration>
+            <country>Нова Зеландия</country>
+            <year>2001</year>
+            <plot>Младият хобит Фродо и смелата задруга от приятели и съюзници се впускат в опасна мисия, за да 
+                унищожат легендарния Единствен пръстен. По петите им са слугите на злия Саурон, Господарят на
+                мрака и създател на Пръстена. Ако Саурон си върне Пръстена, Средната земя е обречена. Тази епична
+                история за доброто, злото, приятелството и саможертвата, носител на четири награди Оскар, ще ви
+                пренесе в свят, който надминава и най-смелите ви фантазии.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>9</rating>
+            <actorsIN>
+                <actor-ref actorID='a12'/>
+                
+            </actorsIN>
+        </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='romantic' produced-by='s35' type='movie'>
+        <filmName>Блясъкът на чистия ум</filmName>
+        <duration>108</duration>
+        <country>САЩ</country>
+        <year>2004</year>
+        <plot>
+          Джоел (Джим Кери) е изумен да научи, че от главата на приятелката му Клемънтайн (Кейт Уинслет)
+          е изтрита бурната им връзка. В отчаянието си той се свърза със създателя на процеса д-р Хоуърд
+          Майерцвайк (Том Уилкинсън), за да се подложи на същото лечение. Но когато спомените за
+          Клемънтайн започват да избледняват, Джоел внезапно осъзнава колко много я обича.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>4</rating>
+        <actorsIN>
+          <actor-ref actorID='a13'/>
+        </actorsIN>
+      </video>
+      
+    </videos>
+
+
+  <studios>
+    <studio id='s10'>
+      <studioName>Disney</studioName>
+      <director>Гор Вербински</director>
+      <address>САЩ</address>
+      <phone>555441</phone>
+    </studio>
+
+    <studio id='s11'>
+      <studioName>Warner Bros. Pictures </studioName>
+      <director>Питър Джаксън</director>
+      <address>Уелингтън, Нова Зеландия</address>
+      <phone>6544044</phone>
+    </studio>
+
+    <studio id='s35'>
+      <studioName>Focus Features</studioName>
+      <director>Мишел Гондри</director>
+      <address>Версай, Франция</address>
+      <phone>459030</phone>
+    </studio>
+
+  </studios>
+    
+    <actors>
+        <actor gender='M' age='52' id='a11'>
+            <name>
+                <first>Джони</first>
+                <last>Деп</last>
+            </name>
+            <countryActor>Кентъки,САЩ</countryActor>
+            <email>Depp@gmail.com</email>
+          <actorPhone>124531</actorPhone>
+          <socialNetworkLink>https://twitter.com/realdepp?lang=bg</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='M' age='38' id='a12'>
+            <name>
+                <first>Орландо</first>
+                <last>Блум</last>
+            </name>
+            <countryActor>Кентърбъри, Великобритания</countryActor>
+            <email>Bloom@gmail.com</email>
+          <actorPhone>215531</actorPhone>
+          <socialNetworkLink>https://twitter.com/orlandobloom?lang=bg</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+      <actor gender='M' age='34' id='a13'>
+        <name>
+          <first>Илайджа</first>
+          <last>Ууд</last>
+        </name>
+        <countryActor>Айова, САЩ</countryActor>
+        <email>Wood@gmail.com</email>
+        <actorPhone>422531</actorPhone>
+        <socialNetworkLink>https://twitter.com/elijahwood?lang=bg</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+       
+    </actors>
+</videolibrary>
+

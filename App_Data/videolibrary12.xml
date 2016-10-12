@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='yes' gendre='comedy' produced-by='s19' type='movie'>
+            <filmName>Такси </filmName>
+            <duration>86</duration>
+            <country>Франция</country>
+            <year>1998</year>
+            <plot>
+              Даниел е бивш шофьор, доставчик на пици. Той кара бърза кола, защото
+              обича високите скорости. Даниел се сприятелява с полицая Емилиен.
+              В Марсилия нахлуват немски престъпници. Даниел помага на Емилиен да ги хванат.
+            </plot>
+            <audioLanguage>френски език</audioLanguage>
+            <rating>7</rating>
+            <actorsIN>
+                <actor-ref actorID='a30'/>              
+            </actorsIN>
+       </video>
+      
+    
+   <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s20' type='movie'>
+            <filmName>Фанфан Лалето</filmName>
+            <duration>97</duration>
+            <country>Франция</country>
+            <year>2003</year>
+            <plot>
+              Лентата описва романтичната история на търсач на приключения от времето на Луи XV.
+              Швейцарско-испанският актьор Венсан Перес приема предизвикателството и се превъплътява
+              в емблематичния образ на Фанфан Лалето. Перес се научава виртуозно да се дуелира с шпага,
+              майсторски да галопира на кон и сам изпълнява всички каскади във филма.
+            </plot>
+            <audioLanguage>френски език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a32'/>
+            </actorsIN>
+       </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s43' type='movie'>
+        <filmName>Полунощ в Париж</filmName>
+        <duration>94</duration>
+        <country>САЩ</country>
+        <year>2011</year>
+        <plot>
+          През 2010 Гил Пендър, успешен холивудски сценарист, и годеницата му Инес са на ваканция в Париж,
+          придружавани от родителите на младата дама. През това време Гил се опитва неимоверно да завърши
+          първия си роман. Но докато той е готов да остави всичко в името на творчеството си, Инес, която
+          го смята за безнадежден мечтател, го съветва да се придържа към работата си като сценарист, в
+          която вече е пожънал успехи. Между двамата има много различия, които сякаш стават още по-явни
+          в Париж.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a31'/>
+        </actorsIN>
+      </video>
+        
+    </videos>
+
+
+  <studios>
+    <studio id='s19'>
+      <studioName> ARP Sélection</studioName>
+      <director>Люк Бесон</director>
+      <address>Марсилия, Франция</address>
+      <phone>635987</phone>
+    </studio>
+
+
+    <studio id='s20'>
+      <studioName>Canal+</studioName>
+      <director>Люк Бесон</director>
+      <address>Марсилия, Франция</address>
+      <phone>635987</phone>
+    </studio>
+
+    <studio id='s43'>
+      <studioName>Sony Pictures Classics</studioName>
+      <director>Уди Алън</director>
+      <address>Ню Йорк, САЩ</address>
+      <phone>693279</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='54' id='a30'>
+            <name>
+                <first>Сами</first>
+                <last>Насери</last>
+            </name>
+            <countryActor>Париж, Франция</countryActor>
+            <email>Nasseri@gmail.com</email>
+            <actorPhone>148952</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm0618651/</socialNetworkLink>
+            <nativeLanguage>френски език</nativeLanguage>
+        </actor>
+        
+
+         <actor gender='M' age='51' id='a32'>
+            <name>
+                <first>Венсан</first>
+                <last>Перез</last>
+            </name>
+            <countryActor>Лозана, Швейцария</countryActor>
+            <email>Perez@gmail.com</email>
+            <actorPhone>666453</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm0001641/</socialNetworkLink>
+            <nativeLanguage>френски език</nativeLanguage>
+        </actor>
+
+      <actor gender='F' age='40' id='a31'>
+        <name>
+          <first>Марион</first>
+          <last>Котияр</last>
+        </name>
+        <countryActor>Париж, Франция</countryActor>
+        <email>Cotillard@gmail.com</email>
+        <actorPhone>463152</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm0182839/</socialNetworkLink>
+        <nativeLanguage>френски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

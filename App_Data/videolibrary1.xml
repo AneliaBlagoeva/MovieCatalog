@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd='yes' hasSubtitle='yes' gendre='action' produced-by='s2' type='movie'>
+            <filmName>Седмият син</filmName>
+            <duration>103</duration>
+            <country>САЩ</country>
+            <year>2014</year>
+            <plot>В ера на вълшебства, когато легенди и магия се сблъскват,
+                единственият останал воин от мистичен орден (носителят на „Оскар“ Джеф Бриджис) 
+                пътува по цялата земя, за да открие герой, който според предсказанията ще се роди
+                с невероятни сили – последният Седми син (Бен Барнс).Изтръгнат от спокойния си
+                живот на рибар, неподозираният млад герой се впуска в дръзко приключение заедно със
+                своя закоравял в битките ментор, за да срази кралица на мрака (Джулиан Мур) и нейната
+                армия от свръхестествени убийци, които тя е пратила срещу кралството им.Режисьор на
+                СЕДМИЯТ СИН е Сергей Бодром по сценарий на Чарлс Лийвит и Стив Найт и екранен сюжет на
+                Мат Грийнбърг, по поредицата романи „Хрониките Уордстоун“ на Джоузеф Дилейни. 
+                Продуценти на филма са Бейзъл Иванюк, Томас Тъл и Лайънъл Уиграм. Изпълнителни продуценти
+                са Джон Яшни, Брент О’Конър и Алисия Котър със съпродуценти Джилиан Шеър и Ерика Лий. 
+                По поредицата романи „Хрониките Уордстоун“ от Джоузеф Дилейни .
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a1'/>
+            </actorsIN>
+       </video>
+        
+        
+        <video isHd='no' hasSubtitle='yes' gendre='adventure' produced-by='s1' type='tvShow'>
+            <filmName>Игра на тронове</filmName>
+            <duration>45</duration>
+            <country>САЩ</country>
+            <year>2011</year>
+            <plot>С шеметния си бяг от скована в жесток студ страна към земи на вечно лято и охолно безгрижие,
+                ИГРА НА ТРОНОВЕ е сказание за владетели и владетелки, воини и чародеи, наемни убийци и незаконородени
+                претенденти за власт, появили се във времена на мрачни поличби. Тук странна войнствена орда се сражава
+                с мечове, изковани от невиждан от човека метал, жестоко дивашко племе сее безумие сред хората, свиреп
+                млад принц от кръвта на дракона разменя сестра си, за да си върне трона, едно дете се губи в сумрака
+                между живота и смъртта и една решена на всичко жена предприема опасно пътуване, за да защити това, което
+                й е скъпо. Сред заговори и коварства, трагедии и вероломство, победи и насилия, съюзници и врагове, съдбата
+                на Старките виси на косъм и всяка от страните се бори за победа в най-смъртоносния конфликт: Играта на тронове.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>3</rating>
+            <actorsIN>
+                <actor-ref actorID='a2'/>
+            </actorsIN>
+        </video>
+        
+    
+       <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s33' type='movie'>
+            <filmName>Големият Лебовски</filmName>
+            <duration>117</duration>
+            <country>САЩ</country>
+            <year>1998</year>
+            <plot>Големият Лебовски“ (на английски: The Big Lebowski) е американско-британски криминален комедиен филм от 1998
+            година на режисьорите братя Коен по техен собствен сценарий.
+            В центъра на сюжета е лосанджелиски безделник, който е ангажиран от свой съименник милионер да предаде откупа за 
+            отвлечената му съпруга, но попада в поредица от премеждия. Главните роли се изпълняват от Джеф Бриджис, 
+            Джон Гудман, Стив Бушеми.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>4</rating>
+            <actorsIN>
+                <actor-ref actorID='a3'/>
+            </actorsIN>
+        </video>
+    </videos>
+    
+    
+    <studios>
+        <studio id='s1'>
+            <studioName>HBO</studioName>
+            <director>Дейвид Бениоф</director>
+            <address>Ню Йорк, САЩ</address>
+            <phone>654512</phone>
+        </studio> 
+        
+        <studio id='s2'>
+            <studioName>Titanic Studios</studioName>
+            <director>Сергей Бодров</director>
+            <address>Москва,Русия</address>
+            <phone>654513</phone>
+        </studio>  
+  
+      <studio id='s33'>
+            <studioName>Polygram Filmed Entertainment</studioName>
+            <director>Братя Коен</director>
+            <address>Минесота, САЩ</address>
+            <phone>456925</phone>
+        </studio>  
+    </studios>
+    
+    <actors>
+        <actor gender='M' age='66' id='a1'>
+            <name>
+                <first>Джеф</first>
+                <last>Бриджис</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Bridges@gmail.com</email>
+            <actorPhone>224531</actorPhone>
+            <socialNetworkLink>https://twitter.com/TheJeffBridges</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='M' age='45' id='a2'>
+            <name>
+                <first>Николай </first>
+                <last>Костер-Валдау</last>
+            </name>
+            <countryActor>Дания</countryActor>
+            <email>Waldau@gmail.com</email>
+            <actorPhone>224532</actorPhone>
+            <socialNetworkLink>https://twitter.com/NikolajCWaldau</socialNetworkLink>
+            <nativeLanguage>датски език</nativeLanguage>
+        </actor>
+    
+
+        <actor gender='F' age='55' id='a3'>
+         <name>
+               <first>Джулиан</first>
+               <last>Мур</last>
+        </name>
+        <countryActor>САЩ</countryActor>
+        <email>Moore@gmail.com</email>
+        <actorPhone>224530</actorPhone>
+        <socialNetworkLink>https://twitter.com/_juliannemoore</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+    
+    </actors>
+</videolibrary>

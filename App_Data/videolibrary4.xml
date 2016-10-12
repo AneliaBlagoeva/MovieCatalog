@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='action' produced-by='s8' type='movie'>
+            <filmName>Туристът</filmName>
+            <duration>103</duration>
+            <country>Франция</country>
+            <year>2010</year>
+            <plot>Франк (Джони Деп) е американски турист, който посещава Италия, за да забрави жената,
+                която го изоставя след една голяма любов. Във влака за Венеция с него се запознава
+                красивата Елиз (Анджелина Джоли), която го привлича. Франк се отдава на увлечението,
+                но в един момент разбира, че всеки контакт с тайнствената дама е опасен за живота му.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a10'/>
+            </actorsIN>
+        </video>
+        
+        
+        <video isHd='yes' hasSubtitle='yes' gendre='adventure' produced-by='s7' type='movie'>
+            <filmName>Лара Крофт.Томб Рейдър</filmName>
+            <duration>101</duration>
+            <country>САЩ</country>
+            <year>2001</year>
+            <plot>Във филма „Лара Крофт: Томб Рейдър“ („Lara Croft: Tomb Raider“) член на богато аристократично
+                семейство, Лара Крофт е „Томб Рейдър”. Тя колекционира древни артефакти от руините на храмове 
+                и градове по целия свят и няма нищо против да се подлага на смъртоносни опасности, за да се сдобие с тях.
+                Планетите от слънчевата система се събират в планетарно изравняване, което се случва на всеки 5000 години,
+                а тайно общество, наречено илюминати, търси талисман, който дава на притежателя си способността да
+                контролира времето. В „Лара Крофт: Томб Рейдър“ („Lara Croft: Tomb Raider“) илюминатите се нуждаят от
+                часовник-ключ, който да им помогне в издирването, но се налага да намерят талисмана веднага или да чакат до
+                следващото планетарно изравняване.Лара случайно открива този ключ, а те го задигат. Като научава за скритите
+                им цели, единственото, което й остава, е да вземе ключа, да открие и унищожи талисмана, преди илюминатите
+                да се доберат до него.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a10'/>
+            </actorsIN>
+        </video>
+        
+        
+        
+        <video isHd='no' hasSubtitle='yes' gendre='action' produced-by='s9' type='movie'>
+            <filmName>Мистър и мисис Смит</filmName>
+            <duration>120</duration>
+            <country>САЩ</country>
+            <year>2005</year>
+            <plot>Екшън, в който Джон и Джейн Смит са обикновена семейна двойка с обикновен, поизносен брак. Но всеки от тях
+                крие пикантна тайна - всъщност и двамата са легендарни наемни убийци, работещи за конкурентни компании. Когато
+                шокиращата истина излиза наяве, Джон и Джейн се изправят един срещу друг. Двамата най-опитни убийци на света
+                осъзнават, че живеят под един покрив.
+            </plot>
+          <audioLanguage>английски език</audioLanguage>
+          <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a10'/>
+            </actorsIN>
+        </video>
+        
+    </videos>
+    
+    
+    <studios>
+        <studio id='s7'>
+            <studioName>GK Films</studioName>
+            <director>Флориан Хенкел фон Донерсмарк</director>
+            <address>Германия</address>
+            <phone>684512</phone>
+        </studio> 
+        
+        <studio id='s8'>
+            <studioName>Paramount Pictures</studioName>
+            <director>Саймън Уест</director>
+            <address>Великобритания</address>
+            <phone>654544</phone>
+        </studio>  
+        
+        <studio id='s9'>
+            <studioName>20th Century Fox</studioName>
+            <director>Дъг Лайман</director>
+            <address>САЩ</address>
+            <phone>153542</phone>
+        </studio> 
+    </studios>
+    
+    <actors>
+        <actor gender='F' age='40' id='a10'>
+            <name>
+                <first>Анджелина</first>
+                <last>Джоли</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Jolie@gmail.com</email>
+          <actorPhone>111531</actorPhone>
+          <socialNetworkLink>https://twitter.com/AngeelinaJolie</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+    </actors>
+</videolibrary>
+

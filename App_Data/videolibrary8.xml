@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='no' gendre='action' produced-by='s14' type='tvShow'>
+            <filmName>Под прикритие</filmName>
+            <duration>52</duration>
+            <country>България</country>
+            <year>2011</year>
+            <plot>
+              Под прикритие“ е реалистичен и модерен поглед към престъпния свят в България.
+              Сериалът разкрива в детайли психологията на престъплението и показва истинския
+              живот в мафията и в полицията.
+              Специално обученият агент Мартин (Ивайло Захариев) получава най-опасната мисия
+              в България – да се внедри в редиците на мафиотския бос – Петър Туджаров – Джаро
+              (Михаил Билалов). По пътя към целта Мартин трябва да премине през много изпитания
+              и да се слее с престъпния свят. Задачата му се усложнява още повече, когато среща
+              момичето на шефа – Съни (Ирена Милянкова). Докато действа под прикритие и се издига
+              в йерархията на мафиотите, Мартин попада в свят на насилие корупция и престъпления
+            </plot>
+            <audioLanguage>български език</audioLanguage>
+            <rating>4</rating>
+            <actorsIN>
+                <actor-ref actorID='a21'/>  
+            </actorsIN>
+       </video>
+
+
+
+      <video isHd='no' hasSubtitle='no' gendre='action' produced-by='s15' type='movie'>
+        <filmName>Love.net</filmName>
+        <duration>109</duration>
+        <country>България</country>
+        <year>2011</year>
+        <plot>
+          Филмът проследява паралелно историите на галерия от персонажи, опитващи
+          се да коригират живота си чрез Интернет или просто да се забавляват в
+          мрежата, както и на няколко двойки, свързали живота си чрез сайтовете 
+          за запознанства. LOVЕ.NET разказва за любовта във всичките ѝ проявления
+          – за неизбежната и необяснима любов, но и за повърхностната, бързо
+          ликвидна любов.
+        </plot>
+        <audioLanguage>български език</audioLanguage>
+        <rating>4</rating>
+        <actorsIN>
+          <actor-ref actorID='a20'/>
+        </actorsIN>
+      </video>
+
+
+      <video isHd='no' hasSubtitle='no' gendre='action' produced-by='s40' type='movie'>
+        <filmName>Лов на дребни хищници</filmName>
+        <duration>95</duration>
+        <country>България</country>
+        <year>2010</year>
+        <plot>
+          Михаил има трудности в общуването си с хората, преди да срещне любовта и да се
+          запознае с Хани, Бети и Спейса. Четиримата младежи наивно решават да изкарат лесни
+          пари. Те не подозират, че един непознат с тъмно минало и проблемно настояще ще 
+          преобърне живота им.
+        </plot>
+        <audioLanguage>български език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a22'/>
+        </actorsIN>
+      </video>
+    </videos>
+    
+    
+    <studios>
+        <studio id='s14'>
+            <studioName>Fox</studioName>
+            <director>Иван Дойков</director>
+            <address>София, България</address>
+            <phone>121212</phone>
+        </studio>
+
+
+      <studio id='s15'>
+        <studioName>Мирамар филм</studioName>
+        <director>Илиян Джевелеков</director>
+        <address>София, България</address>
+        <phone>868584</phone>
+      </studio>
+
+      <studio id='s40'>
+        <studioName>Мирамар филм</studioName>
+        <director>Цветодар Марков</director>
+        <address>София, България</address>
+        <phone>123123</phone>
+      </studio>
+    </studios>
+    
+    <actors>
+        <actor gender='M' age='35' id='a20'>
+            <name>
+                <first>Захари</first>
+                <last>Бахаров</last>
+            </name>
+            <countryActor>България</countryActor>
+            <email>zaharybaharov@gmail.com</email>
+            <actorPhone>111111</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm1707712/</socialNetworkLink>
+            <nativeLanguage>български език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='M' age='31' id='a22'>
+            <name>
+                <first>Ивайло</first>
+                <last>Захариев</last>
+            </name>
+            <countryActor>България</countryActor>
+            <email>ivaylozahariev@gmail.com</email>
+            <actorPhone>114532</actorPhone>
+            <socialNetworkLink>https://www.facebook.com/FansIvayloZahariev</socialNetworkLink>
+            <nativeLanguage>български език</nativeLanguage>
+        </actor>
+
+
+      <actor gender='F' age='30' id='a21'>
+        <name>
+          <first>Ирена</first>
+          <last>Милянкова</last>
+        </name>
+        <countryActor>България</countryActor>
+        <email>milyankova@gmail.com</email>
+        <actorPhone>333333</actorPhone>
+        <socialNetworkLink>-</socialNetworkLink>
+        <nativeLanguage>български език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

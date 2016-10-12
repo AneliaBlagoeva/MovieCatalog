@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">-->
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='no' gendre='comedy' produced-by='s18' type='movie'>
+            <filmName>Живи легенди</filmName>
+            <duration>96</duration>
+            <country>България</country>
+            <year>2009</year>
+            <plot>Павел е тридесет и няколко годишен мъж, работещ на висок пост в елитна банка. Един ден
+            претърпява инцидент и изпада в кома. Когато се събужда се оказва, че има частична амнезия и
+            не си спомня нищо след абитуриентския си бал.Той решава да се върне в родния си град, за да
+            ги открие.Пристигайки там установява, че те отдавна са поели в различни посоки, прекъснали
+            са връзката помежду си и за най-голямо негово учудване са направили редица компромиси със себе си.
+            С детския си начин на мислене Павел решава да ги върне към тийнейджърските им години като
+            ги забърква в поредица от щуротии, които преобръщат живота им по неочакван дори и за него начин.
+            </plot>
+            <audioLanguage>български език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a28'/>       
+            </actorsIN>
+       </video>
+      
+    
+   <video hasSubtitle='no' gendre='comedy' produced-by='s18' type='movie'>
+            <filmName>Чужденецът</filmName>
+            <duration>100</duration>
+            <country>България</country>
+            <year>2012</year>
+            <plot>Павел е тридесет и няколко годишен мъж, работещ на висок пост в елитна банка. Един ден
+            претърпява инцидент и изпада в кома. Когато се събужда се оказва, че има частична амнезия и
+            не си спомня нищо след абитуриентския си бал.Той решава да се върне в родния си град, за да
+            ги открие.Пристигайки там установява, че те отдавна са поели в различни посоки, прекъснали
+            са връзката помежду си и за най-голямо негово учудване са направили редица компромиси със себе си.
+            С детския си начин на мислене Павел решава да ги върне към тийнейджърските им години като
+            ги забърква в поредица от щуротии, които преобръщат живота им по неочакван дори и за него начин.
+            </plot>
+            <audioLanguage>български език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a27'/>
+            </actorsIN>
+       </video>
+
+
+      <video isHd='yes' hasSubtitle='yes' gendre='adventure' produced-by='s55' type='movie'>
+        <filmName>Интерстелар</filmName>
+        <duration>169</duration>
+        <country>САЩ</country>
+        <year>2014</year>
+        <plot>
+          Действието на филма се развива в едно близко бъдеще, в което светът агонизира от липсата на хранителни
+          запаси, а климатът на Земята рязко се влошава, предизвиквайки глобална суша, облаци от прах и гигантски
+          пясъчни бури. Тук се появява и историята на бившия пилот Купър (Матю Макконъхи), който работи по програма
+          за фермери и отглежда царевица. Тя е единственото растение, което не е покосено от „чумата“ на главнята.
+          Освен за царевицата, Купър се грижи сам за двете си деца. Стечение на обстоятелствата отвеждат Купър в
+          секретен научен център, изучаващ новопоявила се „червеева дупка“ в близост до Сатурн. Целта на екипа,
+          представляващ останки от бившата космическа агенция НАСА и предвождан от професор Бранд (Майкъл Кейн)
+          е да се изпрати кораб в дупката и така да се изследва една далечна галактика, в която да търси нов
+          дом за човешката раса.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>8</rating>
+        <actorsIN>
+          <actor-ref actorID='a55'/>
+        </actorsIN>
+      </video>
+      
+    </videos>
+
+
+  <studios>
+    <studio id='s18'>
+      <studioName>BTV Studios</studioName>
+      <director>Ники Илиев</director>
+      <address>София, България</address>
+      <phone>141516</phone>
+    </studio>
+
+
+    <studio id='s55'>
+      <studioName>Paramount Pictures</studioName>
+      <director>Кристофър Нолан</director>
+      <address>Лондон, Великобритания</address>
+      <phone>3212</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+
+      <actor gender='M' age='46' id='a55'>
+        <name>
+          <first>Матю</first>
+          <last>Макконъхи</last>
+        </name>
+        <countryActor>Тексас, САЩ</countryActor>
+        <email>McConaughey@gmail.com</email>
+        <actorPhone>456531</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm0000190/?ref_=tt_cl_t2</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+      
+        <actor gender='F' age='33' id='a27'>
+            <name>
+                <first>Саня</first>
+                <last>Борисова</last>
+            </name>
+            <countryActor>Видин, България</countryActor>
+            <email>SaniaBorisova@gmail.com</email>
+            <actorPhone>777777</actorPhone>
+            <socialNetworkLink>https://www.facebook.com/SanyaBorisovaIlieva/</socialNetworkLink>
+            <nativeLanguage>български език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='F' age='37' id='a28'>
+            <name>
+                <first>Яна</first>
+                <last>Маринова</last>
+            </name>
+            <countryActor>София,България</countryActor>
+            <email>IanaMarinova@gmail.com</email>
+            <actorPhone>789321</actorPhone>
+            <socialNetworkLink>https://www.facebook.com/Yana-Marinova-%D0%AF%D0%BD%D0%B0-%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-284148661602759/</socialNetworkLink>
+            <nativeLanguage>български език</nativeLanguage>
+        </actor>
+
+    </actors>
+</videolibrary>

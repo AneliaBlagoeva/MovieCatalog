@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="no" hasSubtitle='yes' gendre='comedy' produced-by='s22' type='tvShow'>
+            <filmName>Приятели</filmName>
+            <duration>22</duration>
+            <country>САЩ</country>
+            <year>1994</year>
+            <plot>
+              Моника, млада готвачка на около 25 години, живее в апартамент в Манхатън.
+              Тя намира нова съквартирантка в лицето на Рейчъл, нейна стара най-добра приятелка
+              от гимназията, с която е изгубила връзка от години. Като едно истинско разглезено
+              дете, Рейчъл никога досега не е работила и възстановява връзките си с Моника
+              единствено защото е останала почти без средства, след като е изоставила годеника
+              си пред олтара.Въпреки това искрено приятелство ще се създаде (отново) между двете
+              жени, а Рейчъл ще се приспособи без проблем в компанията от приятели на Моника, 
+              съставена от Фийби (бивша съквартирантка на Моника), Рос (братът на Моника, тайно
+              влюбен в Рейчъл), Джоуи и Чандлър (последните двама делят един апартамент, разположен
+              срещу този на Моника и Рейчъл в същия жилищен блок). Всички тези млади хора са неженени
+              с изключение на Рос, който вече е бил женен и сега е разведен.През всичките 10 сезона на
+              „Приятели“, се проследява ежедневието на тези шест героя, също както развитието на техните
+              отношения и на професионалния и личния им живот, със своята смесица от радости и разочарования.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>10</rating>
+            <actorsIN>
+                <actor-ref actorID='a37'/>             
+            </actorsIN>
+       </video>
+        
+    
+  <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s22' type='tvShow'>
+            <filmName>Джоуи</filmName>
+            <duration>22</duration>
+            <country>САЩ</country>
+            <year>2004</year>
+            <plot>
+              „Джоуи“ (на английски: Joey) е американски комедиен сериал с участието на Мат ЛеБланк,
+              който се завръща в ролята си на Джоуи Трибиани от ситкома „Приятели“. 
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>7</rating>
+            <actorsIN>
+                <actor-ref actorID='a38'/>  
+            </actorsIN>
+       </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='adventure' produced-by='s47' type='tvShow'>
+        <filmName>Арън Стоун</filmName>
+        <duration>22</duration>
+        <country>САЩ</country>
+        <year>2009</year>
+        <plot>
+          16 - годишният Чарли Ландерс като Арън Стоун е онлайн игра легенда в "Нов герой". Неговият
+          живот се променя завинаги, когато създателя на "Нов герой", милиардерът T. Абнер Хол(Мартин
+          Роуч) го информира за съвсем реална защита Омега и избира Чарли, за да се превърне в Арън
+          Стоун.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a40'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s22'>
+      <studioName>Warner Bros. Pictures</studioName>
+      <director>Дейвид Крейн</director>
+      <address>САЩ</address>
+      <phone>459631</phone>
+    </studio>
+
+    <studio id='s47'>
+      <studioName>Disney</studioName>
+      <director>Ерик Кануел</director>
+      <address>САЩ</address>
+      <phone>693696</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+      <actor gender='M' age='22' id='a40'>
+        <name>
+          <first>Дейвид</first>
+          <last>Ламбърт</last>
+        </name>
+        <countryActor>Луизиана, САЩ</countryActor>
+        <email>lambert@gmail.com</email>
+        <actorPhone>4563</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm3620810/?ref_=tt_cl_t4</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+      
+        <actor gender='F' age='51' id='a37'>
+            <name>
+                <first>Кортни</first>
+                <last>Кокс</last>
+            </name>
+            <countryActor>Алабама, САЩ</countryActor>
+            <email>cortneycox@gmail.com</email>
+            <actorPhone>213698</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm0001073/</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        
+        <actor gender='M' age='48' id='a38'>
+            <name>
+                <first>Мат</first>
+                <last>Лебланк</last>
+            </name>
+            <countryActor>Нютън, САЩ</countryActor>
+            <email>mattLeblanc@gmail.com</email>
+            <actorPhone>214597</actorPhone>
+            <socialNetworkLink>https://twitter.com/Matt_LeBlanc</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+    </actors>
+</videolibrary>

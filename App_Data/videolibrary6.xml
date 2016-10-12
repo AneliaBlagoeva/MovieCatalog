@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+  <nameSite>Арена София</nameSite>
+  <siteLink>www.arenaSofia.bg</siteLink>
+  <videos>
+    <video isHd="no" hasSubtitle='yes' gendre='action' produced-by='s12' type='movie'>
+      <filmName>Железният човек</filmName>
+      <duration>126</duration>
+      <country>САЩ</country>
+      <year>2008</year>
+      <plot>
+        Номинираният за "Оскар" Робърт Дауни Младши е в ролята на Тони Старк
+        (Железният човек) в тази история за индустриалеца милиардер и гениален изобретател, който е отвлечен
+        и принуден да създаде разрушително оръжие. Вместо това, използвайки интелигентността и гения си, Тони
+        създава хай-тек брониран костюм и бяга от похитителите си. Когато разкрива престъпен заговор с глобални
+        последици, той влиза в бронирания си костюм и дава обет да защитава света като "Железният човек".
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>3</rating>
+      <actorsIN>
+        <actor-ref actorID='a16'/>
+      </actorsIN>
+    </video>
+
+    <video isHd="yes" hasSubtitle='yes' gendre='drama' produced-by='s36' type='movie'>
+      <filmName>Син жасмин</filmName>
+      <duration>98</duration>
+      <country>САЩ</country>
+      <year>2013</year>
+      <plot>
+        Филмът проследява историята на Жасмин – дама от висшето общество на Ню Йорк, която се премества в Сан
+        Франциско, за да избяга от несполучливия си брак с нечестен брокер от Уолстрийт.
+        На Западния бряг тя се настанява в скромен апартамент и заживява със своята сестра – бохемката Джинджър,
+        с надеждата да даде свеж старт на живота си. Тя вярва, че смяната на крайбрежието, класата и социалния
+        статус ще ѝ помогнат да се откъсне от миналото и да се върне отново към себе си.
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>6</rating>
+      <actorsIN>
+        <actor-ref actorID='a14'/>
+      </actorsIN>
+    </video>
+
+    <video isHd="no" hasSubtitle='yes' gendre='adventure' produced-by='s37' type='movie'>
+      <filmName>Еверест</filmName>
+      <duration>121</duration>
+      <country>Исландия</country>
+      <year>2015</year>
+      <plot>
+        Филмът е създаден по истински случай и е вдъхновен от трагедията на Еверест през
+        1996 година, при която загиват 8 души. Всички фатални случаи се случват по време
+        на слизането от върха, а причините са комбинация от разразила се силна буря, изоставане
+        от времевия график, липса на кислородни бутилки и здравословни проблеми на алпинистите.
+      </plot>
+      <audioLanguage>английски език</audioLanguage>
+      <rating>7</rating>
+      <actorsIN>
+        <actor-ref actorID='a15'/>
+      </actorsIN>
+    </video>
+  </videos>
+
+  <studios>
+    <studio id='s12'>
+      <studioName>Paramount Pictures</studioName>
+      <director>Джон Фавро</director>
+      <address>Куинс, САЩ</address>
+      <phone>654542</phone>
+    </studio>
+
+    <studio id='s36'>
+      <studioName>Sony Pictures Classics</studioName>
+      <director>Уди Алън</director>
+      <address>Ню Йорк САЩ</address>
+      <phone>121212</phone>
+    </studio>
+
+    <studio id='s37'>
+      <studioName>RVK Studios</studioName>
+      <director>Балтазар Кормакур</director>
+      <address> Рейкявик, Исландия</address>
+      <phone>985632</phone>
+    </studio>
+  </studios>
+
+  <actors>
+    <actor gender='F' age='46' id='a14'>
+      <name>
+        <first>Кейт</first>
+        <last>Бланшет</last>
+      </name>
+      <countryActor>Мелбърн,Австралия</countryActor>
+      <email>Blanchett@gmail.com</email>
+      <actorPhone>424531</actorPhone>
+      <socialNetworkLink>https://twitter.com/kateblanchett?lang=bg</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+
+    <actor gender='F' age='30' id='a15'>
+      <name>
+        <first>Кийра</first>
+        <last>Найтли</last>
+      </name>
+      <countryActor>Мидълсекс,Великобритания</countryActor>
+      <email>Knightley@gmail.com</email>
+      <actorPhone>274531</actorPhone>
+      <socialNetworkLink>https://twitter.com/kieraknightley?lang=bg</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+    
+    <actor gender='M' age='50' id='a16'>
+      <name>
+        <first>Робърт</first>
+        <last>Дауни Джуниър</last>
+      </name>
+      <countryActor>Ню Йорк, САЩ</countryActor>
+      <email>Downy@gmail.com</email>
+      <actorPhone>724531</actorPhone>
+      <socialNetworkLink>https://twitter.com/robertdowneyjr?lang=bg</socialNetworkLink>
+      <nativeLanguage>английски език</nativeLanguage>
+    </actor>
+  </actors>
+</videolibrary>

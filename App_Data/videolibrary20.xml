@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+      <video isHd="no" hasSubtitle='no' gendre='comedy' produced-by='s31' type='tvShow'>
+        <filmName>Магьосниците от Уейвърли Плейс</filmName>
+        <duration>22</duration>
+        <country>САЩ</country>
+        <year>2007</year>
+        <plot>
+          Магьосниците от Уейвърли Плейс" се фокусира върху семейство Русо. Типично семейство, което включва майка - 
+          Тереза Русо; баща - Джери Русо; син - Джъстин Русо; дъщеря - Алекс Русо и друг син - Макс Русо.
+          Децата и семейството живеят нормален живот, но това, което техните приятели не знаят е, че децата
+          са магьосници, които се обучават, а баща им е бивш магьосник и техен учител!
+        </plot>
+        <audioLanguage>български език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a54'/>
+        </actorsIN>
+      </video>
+        
+      <video isHd='no' hasSubtitle='yes' gendre='adventure' produced-by='s32' type='movie'>
+            <filmName>Монте Карло</filmName>
+            <duration>109</duration>
+            <country>САЩ</country>
+            <year>2011</year>
+            <plot>
+             Три красиви британки прекарват ваканцията си в Париж. Неусетно трите се озовават
+             в Монте Карло след като в лоби бара на изискан хотел едната от тях е объркана с
+             богата наследница. Пет години след „Камъкът на раздора” режисьорът Томас Безуча
+             отново предлага романтична комедия. Сред актьорския състав откриваме Анди Макдауъл,
+             поп звездата Селена Гомез, Кейти Касиди от „Клюкарката” и Кори Монтейт от
+             телевизионния блокбастър “Glee”. 
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>5</rating>
+            <actorsIN>
+                <actor-ref actorID='a53'/>
+            </actorsIN>
+       </video>
+
+
+      <video isHd='no' hasSubtitle='yes' gendre='drama' produced-by='s53' type='movie'>
+        <filmName>Не казвай сбогом</filmName>
+        <duration>149</duration>
+        <country>САЩ</country>
+        <year>2014</year>
+        <plot>
+          Лятна сутрин в градче край Мисисипи. Петата годишнина от сватбата на Ник и Ейми Дън...
+          И точно в този ден Ейми изчезва от дома си.
+          Следите от борба изглеждат нагласени, а поведението на примерния съпруг е повече от съмнително.
+          Намереният дневник на Ейми утежнява ситуацията, защото... разкрива съвсем различен поглед
+          за брака им от думите на Ник.
+          Златното момче на града бързо се превръща в главния и единствен заподозрян.
+          Но той упорито твърди, че е невинен.
+          Ник е неискрен и определено крие тайни – но наистина ли е убиец? И ако не е виновен, то тогава къде е красивата му съпруга?
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a58'/>
+        </actorsIN>
+      </video>
+
+      <video isHd='yes' hasSubtitle='yes' gendre='drama' produced-by='s54' type='movie'>
+        <filmName>Войната е опиат</filmName>
+        <duration>131</duration>
+        <country>САЩ</country>
+        <year>2008</year>
+        <plot>
+          Филмът е напрегнат разказ за войници от елитен отряд, които имат една от най-опасните
+          професии в света - обезвреждане на бомби в разгара на сражение.
+          Когато сержант Уилям Джеймс (Джеръми Ренър) поема екипа за обезвреждане на бомби по време
+          на войната в Ирак, той изненадва двамата си подчинени Джей Ти Сенборн (Антъни Маки) и Оуен
+          Илдридж (Браян Джирати) с безразсъдното впускане на екипа в смъртоносната игра на градските
+          сражения.
+          Той се държи така, сякаш е равнодушен към смъртта. Но когато попадат в хаоса на един от
+          иракските градове, в който всеки човек е потенциален враг и всеки предмет може да се окаже
+          смъртоносна бомба, истинският характер на Джеймс се разкрива по начин, който ще промени всички
+          тях завинаги...
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>9</rating>
+        <actorsIN>
+          <actor-ref actorID='a59'/>
+        </actorsIN>
+      </video>
+      
+    </videos>
+
+
+  <studios>
+    <studio id='s31'>
+      <studioName>Дисни</studioName>
+      <director>Тод Грийнуолд</director>
+      <address>САЩ</address>
+      <phone>965321</phone>
+    </studio>
+  
+   <studio id='s32'>
+      <studioName>Fox 2000 Pictures</studioName>
+      <director>Томас Безука</director>
+      <address>САЩ</address>
+      <phone>323536</phone>
+    </studio>
+
+    <studio id='s53'>
+      <studioName>20th Century Fox</studioName>
+      <director>Дейвид Финчър</director>
+      <address>Денвър, САЩ</address>
+      <phone>96961</phone>
+    </studio>
+
+
+    <studio id='s54'>
+      <studioName>Voltage Pictures</studioName>
+      <director>Катрин Бигълоу</director>
+      <address>САЩ</address>
+      <phone>55454</phone>
+    </studio>
+ 
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='23' id='a53'>
+            <name>
+                <first>Селена</first>
+                <last>Гомес</last>
+            </name>
+            <countryActor>Тексас, САЩ</countryActor>
+            <email>Gomez@gmail.com</email>
+            <actorPhone>636363</actorPhone>
+            <socialNetworkLink>https://twitter.com/selenagomez?lang=bg</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+        
+        
+         <actor gender='M' age='27' id='a54'>
+            <name>
+                <first>Дейвид</first>
+                <last>Хенри</last>
+            </name>
+            <countryActor>Калифорния, САЩ</countryActor>
+            <email>davidHenry@gmail.com</email>
+          <actorPhone>784511</actorPhone>
+          <socialNetworkLink>http://www.imdb.com/name/nm1273708/?ref_=tt_ov_st_sm</socialNetworkLink>
+          <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+
+      <actor gender='M' age='43' id='a58'>
+        <name>
+          <first>Бен</first>
+          <last>Афлек</last>
+        </name>
+        <countryActor>Калифорния, САЩ</countryActor>
+        <email>Affleck@gmail.com</email>
+        <actorPhone>694103</actorPhone>
+        <socialNetworkLink>https://twitter.com/benaffleck?lang=bg</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+
+
+      <actor gender='M' age='45' id='a59'>
+        <name>
+          <first>Джеръми</first>
+          <last>Ренър</last>
+        </name>
+        <countryActor>Модесто, САЩ</countryActor>
+        <email>Renner@gmail.com</email>
+        <actorPhone>456930</actorPhone>
+        <socialNetworkLink>http://www.imdb.com/name/nm0719637/</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>

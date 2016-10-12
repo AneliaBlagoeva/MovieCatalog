@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video isHd="yes" hasSubtitle='yes' gendre='adventure' produced-by='s26' type='movie'>
+            <filmName>Алиса в Страната на чудесата</filmName>
+            <duration>108</duration>
+            <country>САЩ</country>
+            <year>2010</year>
+            <plot>
+              „Алиса в Страната на чудесата“ (на английски: Alice in Wonderland) е фентъзи филм
+              от 2010, режисиран от Тим Бъртън. Адаптация по романите на Луис Карол Алиса в 
+              страната на чудесата и Алиса в Огледалния свят, филмът използва техника, комбинираща
+              живата игра с motion capture технология и stop motion анимация. Миа Вашиковска играе
+              ролята на Алиса, заедно с Джони Деп като Лудият шапкар, Хелена Бонъм Картър като
+              Червената кралица и Ан Хатауей в ролята на Бялата кралица.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a46'/> 
+            </actorsIN>
+       </video>
+        
+    
+   <video isHd='yes' hasSubtitle='yes' gendre='adventure' produced-by='s26' type='movie'>
+            <filmName>Алиса в огледалния свят</filmName>
+            <duration>113</duration>
+            <country>САЩ</country>
+            <year>2016</year>
+            <plot>
+            „Алиса в Огледалния свят“ (на английски: Alice Through The Looking Glass) е предстоящ
+            филм по книгата на Луис Карол. Жанрът е определен като приключенско фентъзи, а режисьор
+            е Джеймс Бобин. Филмът е продуциран от Тим Бъртън, който е работил и по първата част. 
+            Очаква се разпространението на филма да започне от 27 май 2016 г.
+            </plot>
+            <audioLanguage>английски език</audioLanguage>
+            <rating>6</rating>
+            <actorsIN>
+                <actor-ref actorID='a46'/>
+            </actorsIN>
+       </video>
+
+      <video isHd='no' hasSubtitle='yes' gendre='comedy' produced-by='s51' type='tvShow'>
+        <filmName>Грозната Бети</filmName>
+        <duration>45</duration>
+        <country>САЩ</country>
+        <year>2006</year>
+        <plot>
+          Бети живее с баща си Игнасио, който е нелегален имигрант, със своята сестра Хилда и племенника 
+          си – Джъстин. Бащата на Даниъл – Брадфорд Мийд, е собственик на „Мийд Пъбликейшънс“, част от
+          което е списанието „Моуд“. Съпругата на Брадфорд – Клеър Мийд, собственичка на „Моуд“, е алкохоличка,
+          а брат му Алекс, който е в неизвестност от две години се завръща като Алексис, сменил пола си.
+          Естествено и Даниъл се вписва в обстановката. Всички в „Моуд“ знаят, че всеки ден той дели леглото
+          си с различна жена, а освен това има и проблем с наркотиците.
+        </plot>
+        <audioLanguage>английски език</audioLanguage>
+        <rating>5</rating>
+        <actorsIN>
+          <actor-ref actorID='a51'/>
+        </actorsIN>
+      </video>
+    </videos>
+
+
+  <studios>
+    <studio id='s26'>
+      <studioName>Уолт Дисни</studioName>
+      <director>Тим Бъртън</director>
+      <address>САЩ</address>
+      <phone>98741</phone>
+    </studio>
+
+    <studio id='s51'>
+      <studioName>Silent H Productions</studioName>
+      <director>Фернандо Гаетан</director>
+      <address>Колумбия</address>
+      <phone>633215</phone>
+    </studio>
+  </studios>
+  
+    <actors>
+        <actor gender='F' age='26' id='a46'>
+            <name>
+                <first>Миа</first>
+                <last>Вашиковска</last>
+            </name>
+            <countryActor>Канбера, Австралия</countryActor>
+            <email>Wasikowska@gmail.com</email>
+            <actorPhone>654135</actorPhone>
+            <socialNetworkLink>http://www.imdb.com/name/nm1985859/</socialNetworkLink>
+            <nativeLanguage>английски език</nativeLanguage>
+        </actor>
+
+      <actor gender='M' age='41' id='a51'>
+        <name>
+          <first>Адам</first>
+          <last>Родригес</last>
+        </name>
+        <countryActor>Ню Йорк, САЩ</countryActor>
+        <email>Rodríguez@gmail.com</email>
+        <actorPhone>974511</actorPhone>
+        <socialNetworkLink>https://twitter.com/_Adam_Rodriguez?lang=bg</socialNetworkLink>
+        <nativeLanguage>английски език</nativeLanguage>
+      </actor>
+    </actors>
+</videolibrary>
